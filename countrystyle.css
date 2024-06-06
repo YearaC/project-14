@@ -170,7 +170,7 @@ main {
 
 
 .gradient-text-ds {
-    background: linear-gradient(to right, #010A55 0%, #DD9B9B 12%);
+    background: linear-gradient(to right, #010A55 0%, #DD9B9B 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -269,6 +269,65 @@ main {
 
 
 
+
+
+/* need to be filled */
+
+
+
+
+
+
+.guidance-container-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 10px;
+    background-color: #fdfbf6;
+    border-radius: 1rem;
+}
+
+.guidance-title-ds {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.guidance-card-container-ds {
+    display: flex;
+    flex-direction: row;
+    max-width: 1520px;
+    margin-bottom: 50px;
+}
+
+
+.guidance-card-container-ds .card {
+    background-color: #faf7ec;
+    letter-spacing: 0.8px;
+    border-radius: 20px;
+}
+
+.guidance-card-container-ds .card .card-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.guidance-card-container-ds .card .card-text {
+    font-size: 0.8rem;
+}
+
+.guidance-card-container-ds .card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 640px) {
     .train-img-ds {
         padding: 0;
@@ -317,12 +376,20 @@ main {
     }
 
     .big-title-ds {
-        font-size: 32px;
+        font-size: 27px;
+    }
+
+    .exciting-text-ds {
+        font-size: 22px;
+        text-decoration: 1px underline #05D2FF;
+        font-weight: 600;
     }
 
 
 
 }
+
+
 
 
 
@@ -371,6 +438,12 @@ main {
 
     .big-title-ds {
         font-size: 32px;
+    }
+
+    .exciting-text-ds {
+        font-size: 24px;
+        text-decoration: 1px underline #05D2FF;
+        font-weight: 600;
     }
 
 }
