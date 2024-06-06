@@ -72,7 +72,7 @@ body, html {
   font-family: "Lato", Arial, sans-serif;
   letter-spacing: 0.08em;
   line-height: 1;
-  font-size: 2.4rem;
+  font-size: 5rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
   background: rgba(0, 0, 0, 0.4);
@@ -111,14 +111,13 @@ body, html {
 }
 
 /* 2nd main paragraph */
-.hide-button-js {
-  display: none;
+
+.box-content-js h1 {
+  margin-bottom: 60px;
 }
 
-.bottom-button-js{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.hide-button-js {
+  display: none;
 }
 
 @media (max-width: 990px) {
@@ -129,12 +128,25 @@ body, html {
   .hide-button-js {
     display: block;
   }
-
 }
 
+.button-js a {
+  border: 1px solid #c2c2c2;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-color: #c2c2c2;
+  padding: .7rem 1.25rem;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  text-decoration: none;
+  color: black;
+}
 
-
-.main-container {
+.main-container-js {
   margin-top: 80px;
   margin-bottom: 48px;
 } 
@@ -144,19 +156,6 @@ body, html {
   justify-content: space-between;
 }
 
-.trip-button-js {
-  border-radius: 9999px;
-  border-width: 1px;
-  border-color: #c2c2c2;
-    padding: .5rem 1.25rem;
-    font-size: 14px;
-    line-height: 1.4;
-    font-weight: 500;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: .15s;
-}
-
 .box-js{
   background-color: #2bb1ff;
   font-family: 'Poppins', sans-serif;
@@ -164,6 +163,7 @@ body, html {
   border-radius: 5px;
   overflow: hidden;
   position: relative;
+  height: 90%;
   transition: all 0.3s ease 0s;
 }
 .box-js:hover{ box-shadow: 0 0 0 10px rgba(43,177,255,0.2); }
@@ -233,5 +233,11 @@ body, html {
 }
 .box-js:hover .social-icon-js{ opacity: 1; }
 @media only screen and (max-width:990px){
-  .box { margin: 0 0 30px; }
+  .box-js { margin: 0 0 0px; }
+}
+
+.bottom-button-js{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
