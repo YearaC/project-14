@@ -116,19 +116,7 @@ body, html {
   margin-bottom: 60px;
 }
 
-.hide-button-js {
-  display: none;
-}
 
-@media (max-width: 990px) {
-  .trip-button-js {
-    display: none;
-  }
-
-  .hide-button-js {
-    display: block;
-  }
-}
 
 .button-js a {
   border: 1px solid #c2c2c2;
@@ -157,9 +145,9 @@ body, html {
 }
 
 .box-js{
-  background-color: #2bb1ff;
+  background-color: #00C0EA;
   font-family: 'Poppins', sans-serif;
-  border: 3px solid #2bb1ff;
+  border: 3px solid #00C0EA;
   border-radius: 5px;
   overflow: hidden;
   position: relative;
@@ -240,4 +228,18 @@ body, html {
   display: flex;
   justify-content: center;
   width: 100%;
+  
+}
+.hide-button-js {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .trip-button-js {
+    display: none;
+  }
+
+  .hide-button-js {
+    display: block;
+  }
 }
