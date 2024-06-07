@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  display: flex;
+  background: white;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+/* start*/
+
+.noona-footer-left{
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 35%;
+
+  
+} 
+
+.tilte-yeara{
+  margin: 0 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+  margin-bottom: 4%;
+  
+
+}
+
+.tilte-yeara{
+  margin: 0 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+  margin-bottom: 4%;
+  
+
+}
+
+.noona-logo-yeara{
+  width:240px;
+
+  height: 36px;
+  cursor:pointer;
+
+}
+
+.explore{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.join{
+  font-family: Pangea Display, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  margin-bottom: 24;
+  font-weight:500;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: rgb(234, 245, 138);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.menu_yeara{
+  width: 100%;
+  
+}
+
+
+.country{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.country:hover{
+  color: rgb(234, 245, 138);
+}
+
+.footer-middle{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-yeara{
+  display: flex;
+  justify-content: space-around;
+  background: #3586ff;
+  
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(18 18 18);
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  
+
+}
+
+
+
+
+.footer-middle{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+.footer-yeara{
+  display: flex;
+  justify-content: space-around;
+  background: #3586ff;
+  position: relative;
+  right:-5.5%;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(18 18 18);
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  
+
+}
+
+.copyright {
+  align-self: center;
+  width: 100%;
+  padding-right: 2rem;
+  }
+
+.LANGUAGE{
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.media-footer{
+  display: none;
+  
+}
+
+
+@media (max-width:1280px){
+  .create-button{
+    font-weight: 400;
+    max-height: 3%;
+
+  }
+
+  .footer-middle{
+    margin: 0%;
+  }
+
+}
+
+
+
+/*finish*/
+
+/*media*/
+
+@media screen and (max-width: 980px) {
+
+
+
+}
+  
+@media screen and (max-width:850px) {
+
+
+  .footer-middle{
+    display: none;
+    
+  }
+  .noona-footer-left{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+
+  }
+
+  .join{
+    text-align: center;
+    
+  }
+
+
+  .explore{ text-align: center;
+
+  }
+
+  .media-footer{
+    display: block;
+    
+  }
+
+ 
+  
+}
+
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background: #3586ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+
+.menu__link:hover {
+  opacity: 1;
+  color: rgb(234, 245, 138);
+}
+
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
