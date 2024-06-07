@@ -142,6 +142,7 @@ body {
   color: white;
   padding: 2rem;
   width: 100%;
+
   
 
 }
@@ -150,6 +151,7 @@ body {
   align-self: center;
   width: 100%;
   padding-right: 2rem;
+  
   }
 
 .LANGUAGE{
@@ -163,20 +165,9 @@ body {
   
 }
 
-
-@media (max-width:1280px){
-  .create-button{
-    font-weight: 400;
-    max-height: 3%;
-
-  }
-
-  .footer-middle{
-    margin: 0%;
-  }
-
+.wow{
+  display: none;
 }
-
 
 
 /*finish*/
@@ -219,9 +210,19 @@ body {
     
   }
 
+  .copyright{
+    order: 3;
+  }
+
+  .footer-bottom{
+
+  flex-wrap: wrap;}
+
  
   
 }
+
+
 
 
 
