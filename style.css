@@ -34,17 +34,6 @@ body {
   
 
 }
-
-.tilte-yeara{
-  margin: 0 10px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-family: inherit;
-  margin-bottom: 4%;
-  
-
-}
-
 .noona-logo-yeara{
   width:240px;
 
@@ -71,11 +60,50 @@ body {
   
 }
 
+.join{
+  font-family: Pangea Display, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  margin-bottom: 24;
+  font-weight:500;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: rgb(234, 245, 138);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+
+}
+
+
 .menu_yeara{
   width: 100%;
   
 }
 
+.list-yeara-title{
+  padding:3%;
+  color: rgba(0, 0, 0, 0.596);
+  margin-right: 6rem;
+  font-weight: 700;
+  line-height: 1;
+  font: 14px;
+  width: 100%;
+ 
+}
+
+.list-yeara{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0.75rem;
+  color: aliceblue;
+  margin-right: 15rem;
+  width: 100%;
+
+}
+
+.list-yeara:hover{
+  color: rgb(234, 245, 138);
+}
 
 .country{
   color: white;
@@ -86,36 +114,6 @@ body {
 .country:hover{
   color: rgb(234, 245, 138);
 }
-
-.footer-middle{
-  display: flex;
-  justify-content: space-around;
-
-}
-
-.footer-yeara{
-  display: flex;
-  justify-content: space-around;
-  background: #3586ff;
-  
-  padding-bottom: 3rem;
-  padding-top: 1rem;
-  
-}
-
-.footer-bottom{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(18 18 18);
-  color: white;
-  padding: 2rem;
-  width: 100%;
-  
-
-}
-
-
-
 
 .footer-middle{
   display: flex;
@@ -158,11 +156,6 @@ body {
   align-items: center;
 }
 
-.media-footer{
-  display: none;
-  
-}
-
 
 @media (max-width:1280px){
   .create-button{
@@ -180,50 +173,6 @@ body {
 
 
 /*finish*/
-
-/*media*/
-
-@media screen and (max-width: 980px) {
-
-
-
-}
-  
-@media screen and (max-width:850px) {
-
-
-  .footer-middle{
-    display: none;
-    
-  }
-  .noona-footer-left{
-    display: flex;
-    align-items: center;
-    margin: 0%;
-    width: 100%;
-
-  }
-
-  .join{
-    text-align: center;
-    
-  }
-
-
-  .explore{ text-align: center;
-
-  }
-
-  .media-footer{
-    display: block;
-    
-  }
-
- 
-  
-}
-
-
 
 .footer {
   position: relative;
@@ -264,20 +213,18 @@ body {
 }
 
 .menu__link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
   text-decoration: none;
   opacity: 0.75;
-  font-weight: 400;
-  margin-bottom: 3%;
+  font-weight: 300;
 }
 
 .menu__link:hover {
   opacity: 1;
-  color: rgb(234, 245, 138);
 }
 
 
