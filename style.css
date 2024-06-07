@@ -13,13 +13,12 @@
 .noona-footer-left{
   flex-direction: column;
   justify-content: flex-start;
-  width: 35%;
+  width: 50%;
 
   
 } 
 
 .tilte-yeara{
-  margin: 0 10px;
   font-size: 1.1rem;
   font-weight: 600;
   font-family: inherit;
@@ -29,7 +28,7 @@
 }
 
 .tilte-yeara{
-  margin: 0 10px;
+  
   font-size: 1.1rem;
   font-weight: 600;
   font-family: inherit;
@@ -45,6 +44,9 @@
   cursor:pointer;
 
 }
+
+
+
 
 .explore{
   margin-top: 1rem;
@@ -96,6 +98,11 @@
   
 }
 
+
+.white-yeara{
+    display: none;
+}
+
 .footer-bottom{
   display: flex;
   justify-content: center;
@@ -103,6 +110,7 @@
   color: white;
   padding: 2rem;
   width: 100%;
+  flex-wrap: wrap;
   
 
 }
@@ -151,21 +159,12 @@
   align-items: center;
 }
 
-.media-footer{
-  display: none;
-  
-}
-
 
 @media (max-width:1280px){
   .create-button{
     font-weight: 400;
-    max-height: 3%;
+    
 
-  }
-
-  .footer-middle{
-    margin: 0%;
   }
 
 }
@@ -192,7 +191,6 @@
   .noona-footer-left{
     display: flex;
     align-items: center;
-    margin: 0%;
     width: 100%;
 
   }
@@ -212,8 +210,29 @@
     
   }
 
+  .wow-yeara{
+    display: block;
+  }
+
+  .copyright{
+    font-size:small;
+    order: 3;
+    
+  }
+
+  .footer-bottom{
+    padding: 20px;
+  }
+  .white-yeara{
+    display: block;
+  }
+
  
   
+}
+
+@media screen and (max-width:850px){
+
 }
 
 
@@ -772,3 +791,10 @@ body, html {
     }
     
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: white;
+  }

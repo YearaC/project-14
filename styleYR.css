@@ -165,10 +165,6 @@ body {
   
 }
 
-.wow{
-  display: none;
-}
-
 
 /*finish*/
 
@@ -218,9 +214,64 @@ body {
 
   flex-wrap: wrap;}
 
+  .LANGUAGE{
+    margin-right: 200px;
+  }
+
  
   
 }
+
+
+
+@media screen and (max-width:785px) {
+
+  .copyright{
+    font-size: 12px;
+  }
+
+  .create-bt{
+    
+    position: relative;
+    right: -160px;
+    bottom: 70px;
+  }
+
+  .last0-yeara{
+    position: relative;
+    right: -200px;
+    top: -85px;
+  }
+
+
+
+}
+
+@media screen and (max-width:530px) {
+
+  .last0-yeara{
+    position: relative;
+    right: -300px;
+    top: -110px;
+  }
+
+
+
+}
+
+@media screen and (max-width:400px) {
+
+  .last0-yeara{
+    position: relative;
+    right: -250px;
+
+  }
+
+
+
+}
+
+
 
 
 
