@@ -18,8 +18,11 @@
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
 .logo-ke {
     /* width: 180px; */
     width: 160px;
@@ -31,7 +34,14 @@
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 
+=======
+.nav-item-box-ke {
+    display: flex;
+    justify-content: space-around;
+}
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
 
 .nav-item-list-ke {
     padding-right: 10px;
@@ -40,6 +50,7 @@
 
 
 
+<<<<<<< HEAD
 /* sub-drop-box 1 and 2 position change */
 
 
@@ -79,10 +90,30 @@
     /* border: 3px solid purple; */
     margin-top: -42.5px;
     /* padding-bottom: 8rem; */
+=======
+/* sub-drop-box2 position change */
+
+.dro-box-menu-ke{
+    border: 2px solid blue;
+    position: absolute;
+}
+
+.sub-drop-menu-test-ke {
+    border: 3px solid red;
+    /* position: relative; */
+    margin-top: -10px;
+    /* top: -10px; */
+}
+
+.sub-drop-menu-test-2-ke {
+    border: 3px solid purple;
+    margin-top: -42.5px;
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
     /* margin-top: -27%; */
 }
 
 .sub-drop-menu-test-3-ke {
+<<<<<<< HEAD
     /* border: 3px solid green; */
     margin-top: -74px;
     /* padding-bottom: 8rem; */
@@ -101,6 +132,23 @@
     justify-content: flex-end;
 } */
 
+=======
+    border: 3px solid green;
+    margin-top: -74px;
+    /* margin-top: -47.5%; */
+}
+
+/* .fist-destin-items-list-ke {
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+.nav-icon-sign-box-ke {
+    justify-content: flex-end;
+}
+
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
 .nav-icon-box-ke {
     padding-right: 10px;
 }
@@ -158,14 +206,22 @@
     top: 0; /* Adjust this value to move the nested dropdown upwards */
     left: 100%;
     margin-left: -1px; /* Aligns with parent menu */
+<<<<<<< HEAD
     /* display: none;  */
     /* Initially hides the nested dropdown */
+=======
+    display: none; /* Initially hides the nested dropdown */
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
     display: block; /* Shows the nested dropdown on hover */
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
 .dropdown-submenu {
         position: relative; /* 상대적 위치 설정으로, 절대 위치를 가진 자식 요소들의 기준점을 설정합니다. */
     }
@@ -183,6 +239,7 @@
     left: 100%; /* 서브메뉴를 부모 메뉴의 바로 오른쪽에 위치시킵니다. */
     margin-left: .1rem; /* 부모 메뉴와의 간격을 위해 왼쪽 여백을 조금 추가합니다. */
     margin-right: .1rem; /* 일관된 간격을 위해 오른쪽 여백을 조금 추가합니다. */
+<<<<<<< HEAD
 }
 
 
@@ -193,4 +250,6 @@
         right: 11rem;
     }
     
+=======
+>>>>>>> 08861688ea9b582a7556451ef1fda826956d205a
 }
