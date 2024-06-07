@@ -1,0 +1,196 @@
+
+
+.con-mar-ke {
+    margin: 0px 79.667px;
+    padding: 0px 32px;
+}
+
+.nav-info-ke {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    tab-size: 4;
+    font-family: Pangea Text, Helvetica, Arial, sans-serif;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+
+
+
+
+.logo-ke {
+    /* width: 180px; */
+    width: 160px;
+    /* max-width: 100%; */
+    padding: 15px 15px 10px 0px;
+}
+
+.nav-con-box-ke {
+    justify-content: space-between;
+}
+
+
+
+.nav-item-list-ke {
+    padding-right: 10px;
+}
+
+
+
+
+/* sub-drop-box 1 and 2 position change */
+
+
+.sub-drop-box-1{
+    padding-bottom: 9rem;
+}
+
+.sub-sub-drop-box-1 {
+    padding-bottom: 9rem;
+    padding-right: 4rem;
+}
+
+
+.dro-box-menu-ke{
+    width: fit-content;
+    /* border: 2px solid blue; */
+    position: absolute;
+    /* padding-bottom: 9rem; */
+}
+
+.sub-drop-menu-test-ke {
+    display: block;
+    /* border: 3px solid red; */
+    /* position: relative; */
+    margin-top: -10px;
+    /* padding-bottom: 8rem; */
+    /* top: -10px; */
+}
+
+/* .nav-item-box-ke {
+    display: block;
+} */
+
+
+
+.sub-drop-menu-test-2-ke {
+    /* border: 3px solid purple; */
+    margin-top: -42.5px;
+    /* padding-bottom: 8rem; */
+    /* margin-top: -27%; */
+}
+
+.sub-drop-menu-test-3-ke {
+    /* border: 3px solid green; */
+    margin-top: -74px;
+    /* padding-bottom: 8rem; */
+    /* margin-top: -47.5%; */
+}
+
+
+/*  to here sub-drop-box 1 and 2 position change */
+
+
+
+
+
+
+/* .nav-icon-sign-box-ke {
+    justify-content: flex-end;
+} */
+
+.nav-icon-box-ke {
+    padding-right: 10px;
+}
+
+.nav-sign-button-ke {
+    font-size: 14px;
+    background-color: rgb(0 87 217);
+    color: white;
+    height: 40px;
+    width: 90px;
+    padding: 5px 10px;
+    border-radius: 80px;
+}
+
+.nav-sign-button-ke:hover {
+    background-color: #007BFF;
+
+}
+
+
+/* .nav-hidden-ke{
+    display: none;
+}
+
+
+.drop-menu-list-ke{
+    border: 1px solid red;
+    width: 500px;
+    border-radius: 16px;
+} */
+
+/* .sav-ke{
+    background-color: black;
+    border: 3px solid blue;
+} */
+
+
+/* 
+.big-drop-box-1-ke{
+    display: flex;
+    padding-right: 1.5rem;
+} */
+
+
+
+/* gpt test!!!!!!!!!!!!! */
+
+/* Nested dropdown positioning */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    position: absolute;
+    top: 0; /* Adjust this value to move the nested dropdown upwards */
+    left: 100%;
+    margin-left: -1px; /* Aligns with parent menu */
+    /* display: none;  */
+    /* Initially hides the nested dropdown */
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block; /* Shows the nested dropdown on hover */
+}
+
+.dropdown-submenu {
+        position: relative; /* 상대적 위치 설정으로, 절대 위치를 가진 자식 요소들의 기준점을 설정합니다. */
+    }
+
+    /* triangle direction */
+.dropdown-submenu a::after {
+    transform: rotate(-90deg); /* 가상 요소(대개 화살표)를 -90도 회전시킵니다. */
+    position: absolute; /* 가상 요소를 상대적 위치를 가진 부모 요소 내에서 절대 위치로 설정합니다. */
+    right: 6px; /* 부모 요소의 오른쪽 가장자리에서 6px 떨어진 곳에 위치시킵니다. */
+    top: .8em; /* 부모 요소의 상단에서 .8em 떨어진 곳에 위치시킵니다. */
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0; /* 서브메뉴의 상단을 부모 메뉴의 상단과 맞춥니다. */
+    left: 100%; /* 서브메뉴를 부모 메뉴의 바로 오른쪽에 위치시킵니다. */
+    margin-left: .1rem; /* 부모 메뉴와의 간격을 위해 왼쪽 여백을 조금 추가합니다. */
+    margin-right: .1rem; /* 일관된 간격을 위해 오른쪽 여백을 조금 추가합니다. */
+}
+
+
+@media screen and (max-width: 48rem) {
+    .btn{
+        position: relative;
+        top: 5rem;
+        right: 11rem;
+    }
+    
+}
