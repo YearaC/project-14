@@ -1,15 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-/*
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
-
-body {
+.footer-div {
   display: flex;
   background: white;
   justify-content: flex-end;
@@ -17,8 +9,6 @@ body {
   min-height: 100vh;
 }
 
-*/
-/* start*/
 
 .noona-footer-left{
   flex-direction: column;
@@ -237,7 +227,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
+
+/* box-sizing*/
 
 .social-icon,
 
@@ -285,6 +278,7 @@ body {
 
 
 .wave {
+  margin-top: 1rem;
   position: absolute;
   top: -100px;
   left: 0;
