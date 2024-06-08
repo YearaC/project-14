@@ -429,11 +429,11 @@ body, html {
 }
 
 
-@media screen and (max-width: 48rem) {
+/* @media screen and (max-width: 48rem) {
     .btn{
         position: relative;
         top: 5rem;
         right: 11rem;
     }
     
-}
+} */
