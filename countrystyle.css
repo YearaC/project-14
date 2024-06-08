@@ -3,13 +3,6 @@ body {
     width: 100vw;
 }
 
-nav {
-    height: 64px;
-    background-color: #00C0EA;
-    margin: 0;
-    text-align: center;
-}
-
 main {
     margin: 0px 24px 24px;
 }
