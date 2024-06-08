@@ -170,7 +170,7 @@ main {
 
 
 .gradient-text-ds {
-    background: linear-gradient(to right, #010A55 0%, #DD9B9B 20%);
+    background: linear-gradient(to right, #010A55 0%, #DD9B9B 45%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -214,8 +214,9 @@ main {
 }
 
 
-.card img:hover {
+.carousel-item .card img:hover {
     filter: brightness(50%);
+    cursor: pointer;
 }
 
 .attractions-button-container-ds {
@@ -285,6 +286,7 @@ main {
     padding: 96px 10px;
     background-color: #fdfbf6;
     border-radius: 1rem;
+    margin-bottom: 5rem;
 }
 
 .guidance-title-ds {
@@ -322,10 +324,247 @@ main {
 }
 
 
+.plan-container-ds {
+    height: 550px;
+    max-width: 1472px;
+    background-image: url('img-dasom/quebec.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+
+.plan-text1-ds {
+    position: relative;
+    top:  50px;
+    left: 20px;
+}
+
+
+.plan-text2-ds {
+    color: white;
+    position: relative;
+    top:  150px;
+    left: 20px;
+    max-width: 600px;
+    text-wrap: wrap;
+    margin-right: 1rem;
+}
+
+
+.plan-container-ds p {
+    color: white;
+    position: relative;
+    top:  100px;
+    left: 20px;
+    letter-spacing: 1px;
+    text-wrap: wrap;
+    margin-right: 1rem;
+}
+
+
+.plan-button-ds {
+    position: relative;
+    top:  150px;
+    left: 20px;
+    width: 145px;
+    height: 40px;
+    background-color: white;
+    border-radius: 9999px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+
+.plan-button-ds:hover {
+    background-color: #00C0EA;
+    color: white;
+}
+
+
+
+.latest-storeis-container-ds {
+    max-width: 1472px;
+    margin-bottom: 5rem;
+}
+
+
+
+.latest-title-button-ds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.latest-button-ds {
+    align-self: center;
+}
 
 
 
 
+.latest-stroies-left-ds {
+    background-image: url('img-dasom/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    min-height: 300px;
+    max-width: 980px;
+}
+
+
+
+
+.latest-stories-text-ds {
+    color: white;
+    position: relative;
+    top: 30rem;
+    font-weight: 400;
+}
+
+
+.latest-text1-ds {
+    font-weight: bolder;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+.latest-text2-ds {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.latest-text3-ds {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+.latest-stroies-right-ds .card {
+    background-color: #f0f7fc;
+    border-color: #e0eefa;
+    margin-bottom: 1rem;
+}
+
+
+.latest-stories-text2-ds {
+    display: none;
+}
+
+
+.latest-stroies-right-ds .card-body{
+    display: flex;
+    align-items: center;
+}
+
+
+.latest-stroies-right-ds .card-body:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+
+
+
+.latest-stroies-right-ds .card-body img{
+    max-width: 120px;
+    max-height:120px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+
+
+.popular-activities-container-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1536px;
+    margin-bottom: 5rem;
+}
+
+
+.popular-item-ds img {
+    margin-right: 2rem;
+    max-height: 270px;
+    border-radius: 1rem;
+}
+
+.popular-item-ds h5 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
+
+.getyourguide-text-ds {
+    color: grey;
+    font-size: 13px;
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.getyourguide-text-ds a {
+    color: grey;
+}
+
+
+.beyond-container-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1536px;
+}
+
+
+.beyond-title-button-ds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.beyond-button-ds {
+    align-self: center;
+}
+
+
+.beyond-item-ds {
+    cursor: pointer;
+}
+
+.beyond-item-ds h5 {
+    font-size: 1.5rem;
+
+}
+
+.beyond-item-ds img {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.beyond-item-ds img:hover {
+    transform: scale(1.05);
+}
+
+/* needs to be deleted */
+
+
+footer {
+    height: 200px;
+    background-color: #00C0EA;
+    margin: 0;
+    text-align: center;
+}
 
 
 @media (max-width: 640px) {
@@ -385,6 +624,49 @@ main {
         font-weight: 600;
     }
 
+    .latest-stories-text-ds {
+        display: none;
+    }
+
+    .latest-stories-text2-ds {
+        display: block;
+        color: black;
+    }
+
+
+    .latest-storeis-container-ds {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latest-stroies-left-ds {
+        display: block;
+        width: 100%;
+    }
+
+    .latest-stroies-right-ds {
+        display: block;
+        width: 100%;
+    }
+
+    .popular-item-ds {
+        display: block;
+        width: 100%;
+    }
+
+    .beyond-title-button-ds {
+        display: block;
+    }
+
+    .beyond-button-ds {
+        margin-top: -20px;
+        margin-bottom: 1rem;
+    }
+
+    .latest-title-button-ds {
+        display: block;
+    }
 
 
 }
@@ -444,6 +726,32 @@ main {
         font-size: 24px;
         text-decoration: 1px underline #05D2FF;
         font-weight: 600;
+    }
+
+    .latest-stories-text-ds {
+        display: none;
+    }
+
+    .latest-stories-text2-ds {
+        display: block;
+        color: black;
+    }
+
+    .latest-storeis-container-ds {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latest-stroies-left-ds {
+        display: block;
+        width: 100%;
+        max-height: 688px
+    }
+
+    .latest-stroies-right-ds {
+        display: block;
+        width: 100%;
     }
 
 }
