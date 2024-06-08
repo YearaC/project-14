@@ -305,7 +305,6 @@ html {
 
 .alternative {
   display: inline-block;
-  
   top: 50%;
   left: 50%;
   position: absolute;
@@ -342,7 +341,6 @@ html {
 
 
 /* video */
-/* video 에 css를 적용하때 이유는 모르지만 "1st main - Media Query" 위쪽으로 css를 위치시키면 비디오 위로 글씨가 보이게 되었다. */
 
 .video-header-js {
   position: absolute;
@@ -352,7 +350,7 @@ html {
   right: 0;
 }
 
-/* 비디오에 position relative를 사용하면 글씨가 위로 보여지게 되었다 */
+
 #video {
   position: relative;
   width: 100%;
@@ -411,7 +409,6 @@ html {
   width: 100%;
 }
 
-/* 비디오를 반응형으로 줄일 때 아래쪽 내용들이 올라갔다 내려갔다 벌어져서 공백이 많았다 적었다 했는데 position top에 60vw; 적용했더니 아래 내용이 공백 벌어짐이 해결되었다 */
 
 
 .empty-box-js {
@@ -419,7 +416,6 @@ html {
   top: 60vw;
   display: block;
   width: 100%;
-  border: 2px solid red;
 }
 
 
@@ -427,6 +423,11 @@ html {
 
 
  
+
+
+
+
+
 
 
 /* 1st main - Media Query  */
@@ -666,15 +667,4 @@ html {
   } */
 
 
-<<<<<<< HEAD
   /* main-js end line */
-=======
-/* @media screen and (max-width: 48rem) {
-    .btn{
-        position: relative;
-        top: 5rem;
-        right: 11rem;
-    }
-    
-} */
->>>>>>> develop
