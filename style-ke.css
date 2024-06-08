@@ -15,8 +15,6 @@
 }
 
 
-
-
 .logo-ke {
     /* width: 180px; */
     width: 160px;
@@ -37,29 +35,12 @@
     /* padding-bottom: 9rem; */
 }
 
-.sub-drop-menu-test-ke {
-    
-    display: block;  
-    /* border: 3px solid red; */
-    /* position: relative; */
-    margin-top: -10px;
-    /* padding-bottom: 8rem; */
-    /* top: -10px; */
-
-    max-width: 100rem; /* 최대 너비 */
-    max-height: 100rem; /* 최대 높이 */
-    border: none; /* 보더 없애기 */
-
-    overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
-    
-}
-
 
 .sub-drop-menu-test-ke {
     display: block;
     margin-top: -10px;
     max-width: 90vw; /* 모바일 화면에서 너비를 화면 너비의 90%로 설정 */
-    border: none; /* 보더 없애기 */
+    /* border: none;*/ /* 보더 없애기 */
     overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
     word-break: break-all; /* 단어 단위로 줄 바꿈 */
 }
@@ -75,19 +56,14 @@
 
 .sub-drop-menu-test-2-ke {
     /* border: 3px solid purple; */
+    /* max-height: 400px; */
     margin-top: -42.5px;
-    /* padding-bottom: 8rem; */
-    /* margin-top: -27%; */
 }
 
 .sub-drop-menu-test-3-ke {
     /* border: 3px solid green; */
     margin-top: -74px;
-    /* padding-bottom: 8rem; */
-    /* margin-top: -47.5%; */
 }
-
-
 
 
 .nav-icon-box-ke {
@@ -98,10 +74,13 @@
     font-size: 14px;
     background-color: rgb(0 87 217);
     color: white;
+    display: flex;
+    justify-content: center;
     height: 40px;
     width: 90px;
     padding: 5px 10px;
     border-radius: 80px;
+    padding-top: 10px;
 }
 
 
@@ -113,6 +92,7 @@
 }
 
 .nav-sign-button-ke:hover {
+    color: white;
     background-color: #007BFF;
 }
 
@@ -120,7 +100,7 @@
 
 /* items hover background color */
 .dropdown-item:hover {
-    background-color: #00bfea6c; /* Background color on hover */
+    background-color: #01d0ff57; /* Background color on hover */
     border-radius: 10%; /* Border radius */
 }
 
@@ -131,13 +111,19 @@
     position: relative;
 }
 
+
+
+
+.sign-btn-lin-ke{
+    text-decoration-line: none;
+    border: none;
+}
+
 .dropdown-submenu > .dropdown-menu {
     position: absolute;
     top: 0; /* Adjust this value to move the nested dropdown upwards */
     left: 100%;
     margin-left: -1px; /* Aligns with parent menu */
-    /* display: none;  */
-    /* Initially hides the nested dropdown */
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
@@ -174,20 +160,15 @@
 @media screen and (max-width: 48rem) {
     .sub-drop-menu-test-ke{
         display: block;
-        /* max-width: 12rem; */  
-        /* border: 3px solid red; */
-        /* position: relative; */
+        max-width: 12rem;  
+
         margin-top: -10px;
-        /* padding-bottom: 8rem; */
-        /* top: -10px; */
-        /* max-width: 100rem;  */
-        /* 최대 너비 */
+
         /* max-height: 100rem;  */
         /* 최대 높이 */
-        border: none; /* 보더 없애기 */
-        overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
-        overflow-wrap: break-word;
-        word-break: break-all;
+        /* border: none;  *//* 보더 없애기 */
+        /* overflow-wrap: break-word;  *//* 텍스트 줄 바꿈 */
+        /* word-break: break-all; */
         
     }
     
