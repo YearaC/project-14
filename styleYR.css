@@ -207,16 +207,27 @@
     margin-right: 200px;
   }
 
+  .last0-yeara{
+    display: flex;
+    justify-content: flex-end;
+
+
+  }
+
  
   
 }
 
 
 
-@media screen and (max-width:785px) {
+@media screen and (max-width:576px) {
 
   .copyright{
     font-size: 12px;
+  }
+
+  .LANGUAGE{
+    margin-right: 0%;
   }
 
   
