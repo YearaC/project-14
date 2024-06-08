@@ -22,7 +22,7 @@
   .overlay {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 99%;
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     right: 0;
@@ -40,12 +40,12 @@
     display:flex;
     justify-content: center;
     color: white;
-    font-size: 5vw;
+    font-size: 4.7vw;
   }
   
   .inner_btn-js {
     position: absolute;
-    top: 67%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     
