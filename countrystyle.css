@@ -351,6 +351,7 @@ main {
     left: 20px;
     max-width: 600px;
     text-wrap: wrap;
+    margin-right: 1rem;
 }
 
 
@@ -361,6 +362,7 @@ main {
     left: 20px;
     letter-spacing: 1px;
     text-wrap: wrap;
+    margin-right: 1rem;
 }
 
 
@@ -388,7 +390,22 @@ main {
 
 .latest-storeis-container-ds {
     max-width: 1472px;
+    margin-bottom: 5rem;
 }
+
+
+
+.latest-title-button-ds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.latest-button-ds {
+    align-self: center;
+}
+
 
 
 
@@ -466,8 +483,88 @@ main {
 
 
 
+.popular-activities-container-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1536px;
+    margin-bottom: 5rem;
+}
 
 
+.popular-item-ds img {
+    margin-right: 2rem;
+    max-height: 270px;
+    border-radius: 1rem;
+}
+
+.popular-item-ds h5 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
+
+.getyourguide-text-ds {
+    color: grey;
+    font-size: 13px;
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.getyourguide-text-ds a {
+    color: grey;
+}
+
+
+.beyond-container-ds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1536px;
+}
+
+
+.beyond-title-button-ds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.beyond-button-ds {
+    align-self: center;
+}
+
+
+.beyond-item-ds {
+    cursor: pointer;
+}
+
+.beyond-item-ds h5 {
+    font-size: 1.5rem;
+
+}
+
+.beyond-item-ds img {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.beyond-item-ds img:hover {
+    transform: scale(1.05);
+}
+
+/* needs to be deleted */
+
+
+footer {
+    height: 200px;
+    background-color: #00C0EA;
+    margin: 0;
+    text-align: center;
+}
 
 
 @media (max-width: 640px) {
@@ -553,6 +650,25 @@ main {
         width: 100%;
     }
 
+    .popular-item-ds {
+        display: block;
+        width: 100%;
+    }
+
+    .beyond-title-button-ds {
+        display: block;
+    }
+
+    .beyond-button-ds {
+        margin-top: -20px;
+        margin-bottom: 1rem;
+    }
+
+    .latest-title-button-ds {
+        display: block;
+    }
+
+
 }
 
 
@@ -637,7 +753,6 @@ main {
         display: block;
         width: 100%;
     }
-
 
 }
 
