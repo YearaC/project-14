@@ -341,7 +341,7 @@ html {
 
 
 /* video */
-/* 
+
 .video-header-js {
   position: absolute;
   /* border: 2px solid red; */
@@ -350,10 +350,11 @@ html {
   right: 0;
 }
 
+
 #video {
   position: relative;
   width: 100%;
- 
+  max-height: 50%;
   bottom: 0; 
   right: 0;
   overflow: hidden;
@@ -368,7 +369,7 @@ html {
   
   top: 0;
   right: 0;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 
 }
 
@@ -378,7 +379,7 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 100vh;
   display:flex;
   justify-content: center;
   color: white;
@@ -412,12 +413,17 @@ html {
 
 .empty-box-js {
   position: relative;
-  bottom:-100%;
-  height: 100%;
+  top: 60vw;
+  display: block;
+  width: 100%;
   border: 2px solid red;
-} 
+}
 
- */
+
+
+
+
+ 
 
 
 
