@@ -1,3 +1,4 @@
+
 .nav-info-ke {
     font-size: 16px;
     line-height: 1.5;
@@ -9,20 +10,11 @@
     font-variation-settings: normal;
 }
 
-.backgroud-color-ke{
+.sub-box-backgroud-color-ke{
     background-color: white;
 }
 
 
-
-/* 여기부터 나주에 지우기 */
-.backgroud-color2-ke{
-    max-width: 100px;
-    max-height: 100px;
-    background-color: skyblue;
-}
-
-/* 여기까지 나중에 지우기 */
 
 
 .logo-ke {
@@ -38,24 +30,6 @@
 }
 
 
-
-
-
-/* .sub-drop-box-1{
-    border: 3px solid blue;
-    max-width: 30rem;
-    max-height: 5rem;
-    padding-bottom: 9rem;
-}
-
-.sub-sub-drop-box-1 {
-    max-width: 30rem;
-    max-height: 5rem;
-    padding-bottom: 9rem;
-    padding-right: 4rem;
-} */
-
-
 .dro-box-menu-ke{
     width: fit-content;
     /* border: 2px solid blue; */
@@ -64,12 +38,37 @@
 }
 
 .sub-drop-menu-test-ke {
-    /* display: block; */  
+    
+    display: block;  
     /* border: 3px solid red; */
     /* position: relative; */
     margin-top: -10px;
     /* padding-bottom: 8rem; */
     /* top: -10px; */
+
+    max-width: 100rem; /* 최대 너비 */
+    max-height: 100rem; /* 최대 높이 */
+    border: none; /* 보더 없애기 */
+
+    overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
+    
+}
+
+
+.sub-drop-menu-test-ke {
+    display: block;
+    margin-top: -10px;
+    max-width: 90vw; /* 모바일 화면에서 너비를 화면 너비의 90%로 설정 */
+    border: none; /* 보더 없애기 */
+    overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
+    word-break: break-all; /* 단어 단위로 줄 바꿈 */
+}
+
+.sub-drop-menu-test-search-ke {
+    
+    max-width: 100rem; /* 최대 너비 */
+    max-height: 100rem; /* 최대 높이 */
+    border: none; /* 보더 없애기 */
 }
 
 
@@ -117,9 +116,11 @@
     background-color: #007BFF;
 }
 
+
+
 /* items hover background color */
 .dropdown-item:hover {
-    background-color: #7bb1ee; /* Background color on hover */
+    background-color: #00bfea6c; /* Background color on hover */
     border-radius: 10%; /* Border radius */
 }
 
@@ -171,9 +172,24 @@
 
 
 @media screen and (max-width: 48rem) {
-    .sub-sub-drop-box-1{
+    .sub-drop-menu-test-ke{
         display: block;
-        max-width: 12rem;
+        /* max-width: 12rem; */  
+        /* border: 3px solid red; */
+        /* position: relative; */
+        margin-top: -10px;
+        /* padding-bottom: 8rem; */
+        /* top: -10px; */
+        /* max-width: 100rem;  */
+        /* 최대 너비 */
+        /* max-height: 100rem;  */
+        /* 최대 높이 */
+        border: none; /* 보더 없애기 */
+        overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
+        overflow-wrap: break-word;
+        word-break: break-all;
+        
     }
     
 }
+
