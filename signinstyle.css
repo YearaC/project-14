@@ -1,0 +1,231 @@
+body {
+    background-color: #F0FDFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    vertical-align: baseline;
+}
+
+
+.text-container h1 {
+    align-self: center;
+    display: block;
+    font-size: 50px;
+}
+
+.text-container p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.np-logo {
+    max-width: 100%;
+    max-height: 62px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+    margin: auto;
+}
+
+
+.signin-box {
+    width: 360px;
+    height: 837px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    letter-spacing: 0.5px;
+}
+
+
+.box-header {
+    width: 360px;
+    height: 144.9px;
+    padding: 30px 40px 24px;
+    text-align: center;
+
+}
+
+.welcome-text {
+    margin: 24px 0px 16px;
+    font-size: 22px;
+    width: 288px;
+    height: 32.4px;
+    font-weight: 300;
+}
+
+.signup-text {
+    width: 288px;
+    height: 18.9px;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.continue-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.continue-button-style {
+    color: #00C0EA;
+    width: 288px;
+    height: 46.8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 9999px;
+    text-align: left;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+
+.continue-button-style:hover {
+    background-color: #f1f2f3;
+    border: 1px solid #cccccc;
+    color: #00C0EA;
+}
+
+
+.text-or {
+    width: 360px;
+    height: 32.4px;
+    padding: 10px 0px 0px;
+    margin: 0px 0px 10px;
+    font-size: 0.7rem;
+    font-weight: 100;
+    text-align: center;
+    align-self: center;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-style {
+    width: 288px;
+    height: 46.8px;
+    border-radius: 0;
+    border: 1px solid #cccccc;
+}
+
+
+.robot-container {
+    padding-left: 4px;
+}
+
+
+.checkbox-container {
+    font-size: 0.85rem;
+    width: 288px;
+    background-color: #F0FDFF;
+    padding: 10px;
+    font-weight: 100;
+}
+
+
+.policy-text {
+    padding: 0 40px;
+    font-size: 0.72rem;
+}
+
+.policy-text span {
+    color: #00C0EA;
+    font-weight: bold;
+}
+
+
+.continue-login-button {
+    width: 288px;
+    height: 46.8px;
+    font-size: 15px;
+    background-color: #00C0EA;
+    border: 0px;
+    border-radius: 9999px;
+    letter-spacing: 1px;
+}
+
+
+.continue-login-button:hover {
+    background-color: #00b0d6;
+}
+
+
+.login-text {
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+
+
+.login-text span {
+    color: #00C0EA;
+    font-weight: bold;
+}
+
+
+.login-text span a {
+    text-decoration: none;
+    color: #00C0EA;
+}
+
+
+
+@media (max-width: 600px) {
+    .prompt {
+        display: none;
+    }
+
+    .box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; 
+        margin: auto;
+    }
+
+    .signin-box {
+        width: 360px;
+        height: 837px;
+        background-color: white;
+        box-shadow: none;
+        letter-spacing: 0.5px;
+    }
+
+    body {
+        background-color: white;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .prompt {
+        display: none;
+    }
+
+}
