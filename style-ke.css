@@ -1,10 +1,3 @@
-
-
-.con-mar-ke {
-    margin: 0px 79.667px;
-    padding: 0px 32px;
-}
-
 .nav-info-ke {
     font-size: 16px;
     line-height: 1.5;
@@ -16,8 +9,20 @@
     font-variation-settings: normal;
 }
 
+.backgroud-color-ke{
+    background-color: white;
+}
 
 
+
+/* 여기부터 나주에 지우기 */
+.backgroud-color2-ke{
+    max-width: 100px;
+    max-height: 100px;
+    background-color: skyblue;
+}
+
+/* 여기까지 나중에 지우기 */
 
 
 .logo-ke {
@@ -28,28 +33,27 @@
 }
 
 .nav-con-box-ke {
+    padding-right: 10px;
     justify-content: space-between;
 }
 
 
-.nav-item-list-ke {
-    padding-right: 10px;
-}
 
 
 
-
-/* sub-drop-box 1 and 2 position change */
-
-
-.sub-drop-box-1{
+/* .sub-drop-box-1{
+    border: 3px solid blue;
+    max-width: 30rem;
+    max-height: 5rem;
     padding-bottom: 9rem;
 }
 
 .sub-sub-drop-box-1 {
+    max-width: 30rem;
+    max-height: 5rem;
     padding-bottom: 9rem;
     padding-right: 4rem;
-}
+} */
 
 
 .dro-box-menu-ke{
@@ -60,17 +64,13 @@
 }
 
 .sub-drop-menu-test-ke {
-    display: block;
+    /* display: block; */  
     /* border: 3px solid red; */
     /* position: relative; */
     margin-top: -10px;
     /* padding-bottom: 8rem; */
     /* top: -10px; */
 }
-
-/* .nav-item-box-ke {
-    display: block;
-} */
 
 
 
@@ -89,16 +89,7 @@
 }
 
 
-/*  to here sub-drop-box 1 and 2 position change */
 
-
-
-
-
-
-/* .nav-icon-sign-box-ke {
-    justify-content: flex-end;
-} */
 
 .nav-icon-box-ke {
     padding-right: 10px;
@@ -114,38 +105,25 @@
     border-radius: 80px;
 }
 
+
+
+.nav-button-ke {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
 .nav-sign-button-ke:hover {
     background-color: #007BFF;
+}
 
+/* items hover background color */
+.dropdown-item:hover {
+    background-color: #7bb1ee; /* Background color on hover */
+    border-radius: 10%; /* Border radius */
 }
 
 
-/* .nav-hidden-ke{
-    display: none;
-}
-
-
-.drop-menu-list-ke{
-    border: 1px solid red;
-    width: 500px;
-    border-radius: 16px;
-} */
-
-/* .sav-ke{
-    background-color: black;
-    border: 3px solid blue;
-} */
-
-
-/* 
-.big-drop-box-1-ke{
-    display: flex;
-    padding-right: 1.5rem;
-} */
-
-
-
-/* gpt test!!!!!!!!!!!!! */
 
 /* Nested dropdown positioning */
 .dropdown-submenu {
@@ -162,7 +140,13 @@
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
-    display: block; /* Shows the nested dropdown on hover */
+    display: block; 
+    /* Shows the nested dropdown on hover */
+}
+
+.dropdown-submenu:hover > .dropdown-submenu {
+    display: block; 
+    /* Shows the nested dropdown on hover */
 }
 
 .dropdown-submenu {
@@ -185,11 +169,11 @@
 }
 
 
+
 @media screen and (max-width: 48rem) {
-    .btn{
-        position: relative;
-        top: 5rem;
-        right: 11rem;
+    .sub-sub-drop-box-1{
+        display: block;
+        max-width: 12rem;
     }
     
 }
