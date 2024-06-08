@@ -16,9 +16,7 @@
 
 
 .logo-ke {
-    /* width: 180px; */
     width: 160px;
-    /* max-width: 100%; */
     padding: 15px 15px 10px 0px;
 }
 
@@ -30,9 +28,7 @@
 
 .dro-box-menu-ke{
     width: fit-content;
-    /* border: 2px solid blue; */
     position: absolute;
-    /* padding-bottom: 9rem; */
 }
 
 

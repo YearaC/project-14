@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>noona planet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/2c827c8cca.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="img-dasom/faviconimg.png">
+  <link rel="stylesheet" href="./style-js.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./hystyle.css">
+  <link rel="stylesheet" href="style-ke.css">
+  <link href="styleYR.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+  <body class="body">
+
+    <!--nav start-->
+    <nav class="navbar navbar-expand-lg nav-info-ke">
+
+      <!-- nav > div= container start-->
+      <div class="container">
+
+        <!-- nav > div(container) >  div 1 (logo)-->
+        <div class="mb-1">
+          <a href="#"
+            ><img class="logo-ke" src="img-ke/logo-160px.png" alt="logo image"
+          /></a>
+        </div>
+
+        <!-- hamburger -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- nav first items (destination, planning, inspiration, shop search sign) start-->
+        <div
+          class="collapse navbar-collapse nav-con-box-ke"
+          id="navbarSupportedContent">
+
+          <!-- nav items list con 1 (destination, planning, inspiration, shop )start -->
+          <div class="nav-item-box-ke">
+
+             <!-- nav items list con-ul 2 start -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <!-- nav item (1) Destination start -->
+              <li class="nav-item dropdown nav-back-col-ke">
+                <!--이 안에 2번째 dropdown menu가 있어야함  -->
+
+                <a class="nav-link text-black dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destinations</a>
+
+                <ul class="dropdown-menu dro-box-menu-ke sub-drop-box-1 sub-box-backgroud-color-ke" >
+                  <li class="dropdown dropdown-submenu ">
+                    <a class="dropdown-item" href="#">Australia</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-item" href="#">USA</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-item" href="canada.html">Canada</a>
+                  </li>
+                </ul>
+              </li> <!-- nav item (1) Destination end -->
+
+              <!-- nav item (2) inspiration start -->
+              <li class="nav-item dropdown">
+                <a class="nav-link text-black dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inspiration</a>
+
+                <ul class="dropdown-menu dro-box-menu-ke sub-drop-box-1 backgroud-color-ke">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Adventure Travel</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Art and Culture</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Food and Drink</a>
+                  </li>
+                </ul>
+              </li> <!-- nav item (2) inspiration end -->
+
+               <!-- nav item (3) shop start -->
+              <li class="nav-item dropdown">
+                <!--이 안에 2번째 dropdown menu가 있어야함  -->
+                <a class="nav-link text-black dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+                <ul class="dropdown-menu dro-box-menu-ke sub-drop-box-1 backgroud-color-ke">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destination guides</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Pictorial and gift</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Language guides</a>
+                  </li>
+                </ul>
+              </li><!-- nav item (3) shop end -->
+            </ul>  <!-- nav items list con-ul 2 end -->
+          </div> <!-- nav items list con 1 (destination, planning, inspiration, shop ) end -->
+
+
+          <!-- nav search and sign button -->
+          <div class="nav-icon-sign-box-ke">
+            <form class="d-flex" role="search">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item dropdown me-2">
+                  <a
+                    class="nav-link text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fa-solid fa-magnifying-glass"></i>Search
+                  </a>
+                  <ul class="dropdown-menu sub-drop-box-1 backgroud-color-ke sub-drop-menu-test-search-ke  ">
+                    <li><input type="text" placeholder="search" onfocus="this.placeholder=''" autofocus></li>
+                    <div class="nav-button-ke">
+                    <button class="nav-sign-button-ke">Search</button>
+                  </div>
+                  </ul>
+                </li>
+
+                <li class="nav-link text-black me-2">
+                  <i class="fa-regular fa-bookmark nav-icon-box-ke"></i>Saves
+                </li>
+             
+
+              <a
+                class="nav-link me-2 text-center nav-sign-button-ke nav-info-ke text-decoration-none"
+                type="submit" href="signin.html">
+                Sign in
+              </a>
+            </ul>
+
+
+            </form>
+          </div>
+        </div> <!-- nav first items (destination, planning, inspiration, shop search sign) end-->
+      </div>  <!-- nav > div= container end-->
+    </nav> <!--nav end-->
+
+
+
+
+
+    <!-- 1st main paragraph 1 -->
+
+    <div class="wrapper desktop-mode-js">
+      <section class="sec01"></section>
+      <section class="sec02"></section>
+      <section class="sec03"></section>
+    </div>
+    <div class="alternative desktop-mode-js">noona planet<a href="#" target="_blank">Where to next?</a></div>
+
+
+    <!-- 1st main paragraph 2 for mobile -->
+
+    <div id="carouselExample" class="carousel slide mobile-mode-600-js bg-body">
+      <div class="carousel-inner mt-5">
+        <div class="carousel-item active">
+          <img src="./img-js/image-01.png" class="d-block w-100" alt="image">
+        </div>
+        <div class="carousel-item">
+          <img src="./img-js/image-02.png" class="d-block w-100" alt="image">
+        </div>
+        <div class="carousel-item">
+          <img src="./img-js/image-03.png" class="d-block w-100" alt="image">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- 2nd main paragraph -->
+
+    <div class="container main-container-js">
+      <div>PLAN YOUR TRIP</div>
+      <div class="box-content-js">
+        <h1>Where to next?</h1>
+        <div class="button-js mt-4">
+          <a class="trip-button-js" href="#">View all destinations</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="box-js">
+            <img src="./img-js/Sydney_Opera_House.jpeg">
+            <div class="box-content-js">
+              <h3 class="title-js">Sydney Opera house</h3>
+            </div>
+            <a href="https://www.independent.co.uk/travel/australasia/australia/sydney-city-guide-best-things-to-do-hotels-b2515826.html"
+              class="social-icon-js"><i class="fa fa-search"></i></a>
+            <a href="https://www.lonelyplanet.com/australia" class="social-icon-js"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="box-js">
+            <img src="./img-js/image-07.avif">
+            <div class="box-content-js">
+              <h3 class="title-js">Melbourne</h3>
+            </div>
+            <a href="https://www.independent.co.uk/travel/australasia/australia/melbournemelbourne-city-guide-best-things-hotels-b2355896.html"
+              class="social-icon-js">
+              <i class="fa fa-search"></i></a>
+            <a href="https://www.lonelyplanet.com/canada" class="social-icon-js"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="box-js">
+            <img src="./img-js/image-04.avif">
+            <div class="box-content-js">
+              <h3 class="title-js">Mount Rainier</h3>
+            </div>
+            <a href="#" class="social-icon-js"><i class="fa fa-search"></i></a>
+            <a href="https://www.lonelyplanet.com/usa" class="social-icon-js"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="bottom-button-js button-js mt-3">
+          <a class="hide-button-js" href="#">View all destinations</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+
+    <!-- 현우님 파트 -->
+
+
+    <div class="container latest-container-ds">
+      <div class="latest-title-button-ds">
+        <div class="latest-title-ds">
+          <div class="gradient-text-ds">TRAVEL STORIES AND NEWS</div>
+          <div class="big-title-ds col">Explore our latest stories</div>
+        </div>
+        <div class="latest-button-ds">
+          <button type="button" class="attractions-button-ds mb-3">Read more articles</button>
+        </div>
+      </div>
+      <div class="row latest-storeis-box-ds centered">
+        <div class="latest-stroies-left-ds col-8">
+          <div class="latest-stories-text-ds">
+            <div class="latest-text1-ds">FOOD AND DRINK</div>
+            <div class="latest-text2-ds">Local Flavor: the best places to eat and drink in Dubai</div>
+            <div class="latest-text3-ds">Jun 8, 2024 / 7 min Read
+              <p>Combining innovagtion with tradition and a global culmination of flavors and trends, Dubai has some of the best dining options in the region.</p>
+            </div>
+          </div>
+        </div>
+        <div class="latest-stories-text2-ds">
+          <div class="latest-text1-ds">FOOD AND DRINK</div>
+            <div class="latest-text2-ds">Local Flavor: the best places to eat and drink in Dubai</div>
+            <div class="latest-text3-ds">Jun 8, 2024 / 7 min Read
+              <p>Combining innovagtion with tradition and a global culmination of flavors and trends, Dubai has some of the best dining options in the region.</p>
+            </div>
+        </div>
+        <div class="latest-stroies-right-ds col-4">
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <img src="img-dasom/river.jpeg" alt="river" class="img-fluid">
+              </div>
+              <div>
+                <p class="text-muted">ACTIVITIES</p>
+                <h5 class="card-title">Local Strolls: Manhattan from top to bottom in 35k Steps</h5>
+                <p class="card-text">Jun 7, 2024 / 9 min read</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <img src="img-dasom/roadtrip.jpeg" alt="roadtrip" class="img-fluid">
+              </div>
+              <div>
+                <p class="text-muted">NATIONAL PARKS</p>
+                <h5 class="card-title">Road tripping: from Las Vegas to Great Basin National Park</h5>
+                <p class="card-text">June 7, 2024 / 9 min read</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <img src="img-dasom/cruise2.jpeg" alt="cruise" class="img-fluid">
+              </div>
+              <div>
+                <p class="text-muted">CRUISE</p>
+                <h5 class="card-title">The 10 best places to go on a river cruise in Europe</h5>
+                <p class="card-text">June 7, 2024 / 8 min read</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <img src="img-dasom/beach.jpeg" alt="beach" class="img-fluid">
+              </div>
+              <div>
+                <p class="text-muted">BEACHES</p>
+                <h5 class="card-title">The best lakes for a vacation in the USA
+                </h5>
+                <p class="card-text">June 7, 2024 / 112 min read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!--footer-->
+
+    <footer>
+      <div class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+
+        <div class="container footer-yeara-container">
+          <div class="footer-left-yr">
+            <div class="noona-footer-left">
+              <div>
+                <img src="img-dasom/whitelogo.png" class="noona-logo-yeara" alt="noona logo">
+              </div>
+              <div class="explore">
+                For Explores Everywhere
+              </div>
+              <div class="join ">
+                <div>
+                  Join the Noona Planet
+                </div>
+                <div>
+                  community of travelers
+                </div>
+              </div>
+              <div class="create-bt">
+                <button type="button" class="btn btn-warning mb-5 "
+                  style="color: white; font-weight: 500; border-radius: 25px">Create account</button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-right-yr">
+            <div class="travel-yeara">
+              <ul>
+                <li class="menu__item tilte-yeara">TOP DESTINATIONS</li>
+                <li class="menu__item"><a class="menu__link" href="#">USA<a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Australia</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Canada</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">South Korea</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">France</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Czech Republic</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Italy</a></li>
+
+
+              </ul>
+            </div>
+            <div class="travel-yeara">
+              <ul>
+                <li class="menu__item tilte-yeara">TRAVEL INTERESTS</li>
+                <li class="menu__item"><a class="menu__link" href="#">Adventure Travel<a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Art and Culture</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Beaches, coasts and Islands</a>
+                </li>
+                <li class="menu__item"><a class="menu__link" href="#">Family Holidays</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Festivals</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Food and Drink</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Honeymoon and Romance</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Road Trips</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Sustainable Travel</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Travel on a Budget</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Wildlife and Nature</a></li>
+
+
+              </ul>
+            </div>
+
+
+            <div class="travel-yeara">
+              <ul class="shop-about">
+                <li class="menu__item tilte-yeara">SHOP</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Destination Guides<a></li>
+                <li class="menu__item"><a class="menu__link" href="#">noona planet Kids</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">noona planet Shop</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Non-English Guides</a></li>
+
+
+              </ul>
+
+              <ul class="shop-about">
+                <li class="menu__item tilte-yeara">ABOUT US</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">About Lonley Planet<a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Trade and Advertising</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Privacy Policy</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Terms and Conditions</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Work For Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#">TOP DESTINATIONS</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">TRAVEL INTERESTS</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">SHOP</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="copyright">
+            © 2024 Noona Planet, a Red Ventures company. All rights reserved. No part of this site may be
+            reproduced without our written permission.
+          </div>
+          <div class="language-container">
+            <div class="LANGUAGE">
+              LANGUAGE
+            </div>
+
+            <div class="language-button-container">
+              <button type="button"
+                class="btn btn-secondary dropdown-toggle text-white bg-dark border border-3 rounded-pill"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 50px 50px;">
+                English &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item" href="#">Korean</a>
+                <a class="dropdown-item" href="#">Español</a>
+                <a class="dropdown-item" href="#">Italiano</a>
+                <a class="dropdown-item" href="#">Française</a>
+                <a class="dropdown-item" href="#">Deutsch</a>
+                <a class="dropdown-item" href="#">Český Krumlov </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      </script>
+    <script src="./script-js.js"></script>
+
+
+  </body>
+
+</html>
