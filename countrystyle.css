@@ -163,6 +163,7 @@ main {
 .attraction-container-ds {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #E6F9FD;
     border-radius: 1rem;
     padding: 80px 40px;
@@ -219,14 +220,11 @@ main {
     cursor: pointer;
 }
 
-.attractions-button-container-ds {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
+
 
 
 .attractions-button-ds {
+    margin-top: 1rem;
     padding: 8px 20px;
     background-color: transparent;
     border: 1px solid grey;
