@@ -123,8 +123,6 @@
   display: flex;
   justify-content: space-around;
   background: #3586ff;
-  position: relative;
-  right:-5.5%;
   padding-bottom: 3rem;
   padding-top: 1rem;
   
@@ -221,43 +219,20 @@
     font-size: 12px;
   }
 
-  .create-bt{
-    
-    position: relative;
-    right: -160px;
-    bottom: 70px;
-  }
-
-  .last0-yeara{
-    position: relative;
-    right: -200px;
-    top: -85px;
-  }
-
-
+  
 
 }
 
 @media screen and (max-width:530px) {
 
-  .last0-yeara{
-    position: relative;
-    right: -300px;
-    top: -110px;
-  }
-
+  
 
 
 }
 
 @media screen and (max-width:400px) {
 
-  .last0-yeara{
-    position: relative;
-    right: -250px;
-
-  }
-
+ 
 
 
 }
