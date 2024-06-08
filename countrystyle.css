@@ -3,12 +3,6 @@ body {
     width: 100vw;
 }
 
-nav {
-    height: 64px;
-    background-color: #00C0EA;
-    margin: 0;
-    text-align: center;
-}
 
 main {
     margin: 0px 24px 24px;
@@ -163,6 +157,7 @@ main {
 .attraction-container-ds {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #E6F9FD;
     border-radius: 1rem;
     padding: 80px 40px;
@@ -219,14 +214,11 @@ main {
     cursor: pointer;
 }
 
-.attractions-button-container-ds {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
+
 
 
 .attractions-button-ds {
+    margin-top: 1rem;
     padding: 8px 20px;
     background-color: transparent;
     border: 1px solid grey;
