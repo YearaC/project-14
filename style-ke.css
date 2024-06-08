@@ -36,33 +36,8 @@
 }
 
 
-.sub-drop-menu-test-ke {
-    display: block;
-    margin-top: -10px;
-    max-width: 90vw; /* 모바일 화면에서 너비를 화면 너비의 90%로 설정 */
-    /* border: none;*/ /* 보더 없애기 */
-    overflow-wrap: break-word; /* 텍스트 줄 바꿈 */
-    word-break: break-all; /* 단어 단위로 줄 바꿈 */
-}
-
 .sub-drop-menu-test-search-ke {
-    
-    max-width: 100rem; /* 최대 너비 */
-    max-height: 100rem; /* 최대 높이 */
     border: none; /* 보더 없애기 */
-}
-
-
-
-.sub-drop-menu-test-2-ke {
-    /* border: 3px solid purple; */
-    /* max-height: 400px; */
-    margin-top: -42.5px;
-}
-
-.sub-drop-menu-test-3-ke {
-    /* border: 3px solid green; */
-    margin-top: -74px;
 }
 
 
@@ -96,8 +71,6 @@
     background-color: #007BFF;
 }
 
-
-
 /* items hover background color */
 .dropdown-item:hover {
     background-color: #01d0ff57; /* Background color on hover */
@@ -105,72 +78,7 @@
 }
 
 
-
-/* Nested dropdown positioning */
-.dropdown-submenu {
-    position: relative;
-}
-
-
-
-
 .sign-btn-lin-ke{
     text-decoration-line: none;
     border: none;
 }
-
-.dropdown-submenu > .dropdown-menu {
-    position: absolute;
-    top: 0; /* Adjust this value to move the nested dropdown upwards */
-    left: 100%;
-    margin-left: -1px; /* Aligns with parent menu */
-}
-
-.dropdown-submenu:hover > .dropdown-menu {
-    display: block; 
-    /* Shows the nested dropdown on hover */
-}
-
-.dropdown-submenu:hover > .dropdown-submenu {
-    display: block; 
-    /* Shows the nested dropdown on hover */
-}
-
-.dropdown-submenu {
-        position: relative; /* 상대적 위치 설정으로, 절대 위치를 가진 자식 요소들의 기준점을 설정합니다. */
-    }
-
-    /* triangle direction */
-.dropdown-submenu a::after {
-    transform: rotate(-90deg); /* 가상 요소(대개 화살표)를 -90도 회전시킵니다. */
-    position: absolute; /* 가상 요소를 상대적 위치를 가진 부모 요소 내에서 절대 위치로 설정합니다. */
-    right: 6px; /* 부모 요소의 오른쪽 가장자리에서 6px 떨어진 곳에 위치시킵니다. */
-    top: .8em; /* 부모 요소의 상단에서 .8em 떨어진 곳에 위치시킵니다. */
-}
-
-.dropdown-submenu .dropdown-menu {
-    top: 0; /* 서브메뉴의 상단을 부모 메뉴의 상단과 맞춥니다. */
-    left: 100%; /* 서브메뉴를 부모 메뉴의 바로 오른쪽에 위치시킵니다. */
-    margin-left: .1rem; /* 부모 메뉴와의 간격을 위해 왼쪽 여백을 조금 추가합니다. */
-    margin-right: .1rem; /* 일관된 간격을 위해 오른쪽 여백을 조금 추가합니다. */
-}
-
-
-
-@media screen and (max-width: 48rem) {
-    .sub-drop-menu-test-ke{
-        display: block;
-        max-width: 12rem;  
-
-        margin-top: -10px;
-
-        /* max-height: 100rem;  */
-        /* 최대 높이 */
-        /* border: none;  *//* 보더 없애기 */
-        /* overflow-wrap: break-word;  *//* 텍스트 줄 바꿈 */
-        /* word-break: break-all; */
-        
-    }
-    
-}
-
