@@ -328,10 +328,6 @@ main {
     margin-bottom: 5rem;
 }
 
-.plan-container-js {
-    height: 550px;
-    max-width: 1472px;
-    background-image: url('img-js/usa-img-js/shutter.jpg');
 .plan-container-ds-au {
     height: 550px;
     max-width: 1472px;
@@ -343,7 +339,6 @@ main {
     flex-direction: column;
     margin-bottom: 5rem;
 }
-
 
 
 
@@ -437,15 +432,6 @@ main {
     max-width: 980px;
 }
 
-
-.latest-stroies-left-ds {
-    background-image: url('img-js/usa-img-js/shutterstock1593990913.avif');
-    background-size: cover;
-    background-position: center;
-    border-radius: 1rem;
-    min-height: 300px;
-    max-width: 980px;
-}
 
 
 
