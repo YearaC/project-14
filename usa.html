@@ -1,24 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canada country guide - Noona Planet | North America</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
+    <title>Australia country guide - Noona Planet | Oceania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="countrystyle.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="img-dasom/faviconimg.png">
-    <script src="https://kit.fontawesome.com/31e1952cc2.js" crossorigin="anonymous"></script>   
+    <link href="styleYR.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style-ke.css">
+    <script src="https://kit.fontawesome.com/31e1952cc2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="container-fluid">
-        Nav bar~~~
-    </nav>
+
+        <!--nav start-->
+    <nav class="navbar navbar-expand-lg nav-info-ke">
+
+      <!-- nav > div= container start-->
+      <div class="container">
+
+        <!-- nav > div(container) >  div 1 (logo)-->
+        <div class="mb-1">
+          <a href="index.html"
+            ><img class="logo-ke" src="img-ke/logo-160px.png" alt="logo image"
+          /></a>
+        </div>
+
+        <!-- hamburger -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- nav first items (destination, planning, inspiration, shop search sign) start-->
+        <div
+          class="collapse navbar-collapse nav-con-box-ke"
+          id="navbarSupportedContent">
+
+          <!-- nav items list con 1 (destination, planning, inspiration, shop )start -->
+          <div class="nav-item-box-ke">
+
+             <!-- nav items list con-ul 2 start -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <!-- nav item (1) Destination start -->
+              <li class="nav-item dropdown nav-back-col-ke">
+                <!--이 안에 2번째 dropdown menu가 있어야함  -->
+
+                <a class="nav-link text-black dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destinations</a>
+
+                <ul class="dropdown-menu dro-box-menu-ke sub-drop-box-1 sub-box-backgroud-color-ke" >
+                  <li class="dropdown dropdown-submenu ">
+                    <a class="dropdown-item" href="au.html">Australia</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-item" href="usa.html">USA</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-item" href="canada.html">Canada</a>
+                  </li>
+                </ul>
+              </li> <!-- nav item (1) Destination end -->
+
+              <!-- nav item (2) inspiration start -->
+              <li class="nav-item dropdown">
+                <a class="nav-link text-black dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inspiration</a>
+
+                <ul class="dropdown-menu dro-box-menu-ke sub-drop-box-1 sub-box-backgroud-color-ke">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Adventure Travel</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Art and Culture</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Food and Drink</a>
+                  </li>
+                </ul>
+              </li> <!-- nav item (2) inspiration end -->
+
+               <!-- nav item (3) shop start -->
+              <li class="nav-item dropdown">
+                <!--이 안에 2번째 dropdown menu가 있어야함  -->
+                <a class="nav-link text-black dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+
+                <ul class="dropdown-menu dro-box-menu-ke sub-drop-box-1 sub-box-backgroud-color-ke">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destination guides</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Pictorial and gift</a>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Language guides</a>
+                  </li>
+                </ul>
+              </li><!-- nav item (3) shop end -->
+            </ul>  <!-- nav items list con-ul 2 end -->
+          </div> <!-- nav items list con 1 (destination, planning, inspiration, shop ) end -->
+
+
+          <!-- nav search and sign button -->
+          <div class="nav-icon-sign-box-ke">
+            <form class="d-flex" role="search">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item dropdown me-2">
+                  <a
+                    class="nav-link text-black"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fa-solid fa-magnifying-glass"></i>Search
+                  </a>
+                  <ul class="dropdown-menu sub-drop-box-1 backgroud-color-ke sub-drop-menu-test-search-ke  ">
+                    <li><input type="text" placeholder="search" onfocus="this.placeholder=''" autofocus></li>
+                    <div class="nav-button-ke">
+                    <button class="nav-sign-button-ke">Search</button>
+                  </div>
+                  </ul>
+                </li>
+
+                <li class="nav-link text-black me-2">
+                  <i class="fa-regular fa-bookmark nav-icon-box-ke"></i>Saves
+                </li>
+             
+
+              <a
+                class="nav-link me-2 text-center nav-sign-button-ke nav-info-ke text-decoration-none"
+                type="submit" href="signin.html">
+                Sign in
+              </a>
+            </ul>
+
+
+            </form>
+          </div>
+        </div> <!-- nav first items (destination, planning, inspiration, shop search sign) end-->
+      </div>  <!-- nav > div= container end-->
+    </nav> <!--nav end-->
+
 
     <header>
         <div class="train-img-ds">
-            <img alt="Bow Valley Provincial Park (part of the Kananaskis Country park system) is established east of the Canadian Rockies in the arch of the valley, while the upper course of the Bow River flows through the Banff National Park. The Canmore Nordic Centre Provincial Park is located between the Banff National Park and Canmore in the Bow River Valley." width="1920" height="640" src="img-js/usa-img-js/usa-sky-01.png" class="img-fluid">
+            <img alt="Bow Valley Provincial Park (part of the Kananaskis Country park system) is established east of the Canadian Rockies in the arch of the valley, while the upper course of the Bow River flows through the Banff National Park. The Canmore Nordic Centre Provincial Park is located between the Banff National Park and Canmore in the Bow River Valley."
+                width="1920" height="640" src="usa-img-ke/The USA.avif" class="img-fluid">
         </div>
-    </header>    
+    </header>
 
     <main>
         <div class="container title-container-ds">
@@ -28,10 +171,13 @@
                         <h1>The USA</h1>
                         <p>North America</p>
                     </div>
-                    <div class="title-prompt-ds">The great American experience is about so many things: bluegrass and beaches, snow-covered peaks and redwood forests, restaurant-loving cities and big open skies, and that's just for starters.</div>
+                    <div class="title-prompt-ds">The great American experience is about so many things: bluegrass and beaches, snow-covered peaks and redwood forests, restaurant-loving cities and big open skies, and that's just for starters.
+                    </div>
                     <div class="container best-button-container-ds p-0">
-                        <button type="button" class="best-time-button-ds"><img src="img-dasom/calendar.png" width="20" alt="calender"> Best Time To Visit &#8594;</button>
-                        <button type="button" class="best-places-button-ds"><img src="img-dasom/trophy.png" width="20" alt="calender"> Best Places To Visit &#8594;</button>
+                        <button type="button" class="best-time-button-ds"><img src="img-dasom/calendar.png" width="20"
+                                alt="calender"> Best Time To Visit &#8594;</button>
+                        <button type="button" class="best-places-button-ds"><img src="img-dasom/trophy.png" width="20"
+                                alt="calender"> Best Places To Visit &#8594;</button>
                     </div>
                 </div>
                 <div class="col-4 title-right-ds">
@@ -42,7 +188,7 @@
                         Leave the planning to a local expert
                     </div>
                     <div class="title-right-prompt-ds">
-                        Experience the real Canada. Let a local expert handle the planning for you.
+                        Experience the real The USA. Let a local expert handle the planning for you.
                     </div>
                     <button type="button" class="inspired-button-ds">Get Inspired</button>
                 </div>
@@ -51,35 +197,37 @@
 
 
         <div class="container-fluid attraction-container-ds">
-            <div class="gradient-text-ds"><p>03 / ATTRACTIONS</p></div>
-            <div class="big-title-ds">Latest stories from The usa</div>
+            <div class="gradient-text-ds">
+                <p>01 / ATTRACTIONS</p>
+            </div>
+            <div class="big-title-ds">Must-see attractions</div>
             <div class="container attraction-card-container-ds">
                 <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card-wrapper container-sm d-flex  justify-content-around">
                                 <div class="card">
-                                    <img src="img-js/usa-img-js/getty-01.jpg" class="card-img-top" alt="Banff">
+                                    <img src="usa-img-ke/Great Smoky Mountains National Park.avif" class="card-img-top" alt="Banff">
                                     <div class="card-body">
                                         <h5 class="card-title">Great Smoky Mountains National Park</h5>
-                                        <div class="card-subtitle-ds">BANFF & JASPER NATINAL PARKS</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">The story of the Smoky Mountains began in primordial times when clashing supersized continents created a chain of mountains that are today among the…</div>
+                                        <div class="card-subtitle-ds">USA</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">The story of the Smoky Mountains began in primordial times when clashing supersized continents created a chain of mountains that are today among the oldest on the planet. </div>
                                     </div>
                                 </div>
                                 <div class="card disappear-ds">
-                                    <img src="img-js/usa-img-js/getty-02.jpeg" class="card-img-top" alt="stanley park">
+                                    <img src="usa-img-ke/Glacier National Park.avif" class="card-img-top" alt="stanley park">
                                     <div class="card-body">
-                                        <h5 class="card-title">GLACIER NATIONAL PARK</h5>
-                                        <div class="card-subtitle-ds">MONTANA</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">The rival of any of the United States' most spectacular national parks, including Yellowstone, Yosemite and the Grand Canyon, Glacier National Park is…</div>
+                                        <h5 class="card-title">Glacier National Park</h5>
+                                        <div class="card-subtitle-ds">Montana</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">The rival of any of the United States' most spectacular national parks, including Yellowstone, Yosemite and the Grand Canyon, Glacier National Park is full of jagged peaks produced by dramatic geologic thrust faults and carved by ancient ice. </div>
                                     </div>
                                 </div>
                                 <div class="card disappear-ds">
-                                    <img src="img-js/usa-img-js/getty-03.jpg" class="card-img-top" alt="Jasper">
+                                    <img src="usa-img-ke/Yosemite National Park.avif" class="card-img-top" alt="Jasper">
                                     <div class="card-body">
                                         <h5 class="card-title">Yosemite National Park</h5>
-                                        <div class="card-subtitle-ds">YOSEMITE & THE SIERRA NEVADA</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">Yosemite means "killer" in the Indigenous Miwok language, and in today's parlance it's indeed an impressive, awesome site. Everywhere you look in Yosemite…</div>
+                                        <div class="card-subtitle-ds">California</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">Yosemite means "killer" in the Indigenous Miwok language, and in today's parlance it's indeed an impressive, awesome site. </div>
                                     </div>
                                 </div>
                             </div>
@@ -87,27 +235,29 @@
                         <div class="carousel-item">
                             <div class="card-wrapper container-sm d-flex   justify-content-around">
                                 <div class="card">
-                                    <img src="img-js/usa-img-js/museum.jpg" class="card-img-top" alt="lake louise">
+                                    <img src="usa-img-ke/Metropolitan Museum of Art.avif" class="card-img-top" alt="lake louise">
                                     <div class="card-body">
-                                        <h5 class="card-title">Metropolitan museum of Art</h5>
-                                        <div class="card-subtitle-ds">UPPER EAST SIDE</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">What started with a handful of paintings brought over from Europe or donated by a coterie of philanthropically minded robber barons in the 19th century…</div>
+                                        <h5 class="card-title">Metropolitan Museum of Art</h5>
+                                        <div class="card-subtitle-ds"> 
+                                            Victoria,</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">What started with a handful of paintings brought over from Europe or donated by a coterie of philanthropically minded robber barons in the 19th century has since become a massive collection of two million works of art representing 5000 years of history. </div>
                                     </div>
                                 </div>
                                 <div class="card disappear-ds">
-                                    <img src="img-js/usa-img-js/pike.jpg" class="card-img-top" alt="moraine lake">
+                                    <img src="usa-img-ke/Pike Place Market.avif" class="card-img-top" alt="moraine lake">
                                     <div class="card-body">
                                         <h5 class="card-title">Pike Place Market</h5>
-                                        <div class="card-subtitle-ds">DOWNTOWN, PIKE PLACE & WATERFRONT</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">A cavalcade of noise, smells, personalities, banter and urban theater sprinkled liberally around a spatially challenged waterside strip, Pike Place Market…</div>
+                                        <div class="card-subtitle-ds">Downtown, Pike Place & Waterfront,</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">A cavalcade of noise, smells, personalities, banter and urban theater sprinkled liberally around a spatially challenged waterside strip, Pike Place Market is Seattle in a bottle.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card disappear-ds">
-                                    <img src="img-js/usa-img-js/Golden.jpg" class="card-img-top" alt="jasper">
+                                    <img src="usa-img-ke/Golden Gate Park.avif" class="card-img-top" alt="jasper">
                                     <div class="card-body">
-                                        <h5 class="card-title">Golden Gate park</h5>
-                                        <div class="card-subtitle-ds">SAN FRANCISCO</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">When Frederick Law Olmsted, architect of New York's Central Park, gazed in 1865 upon the plot of land San Francisco Mayor Frank McCoppin wanted to turn…</div>                                    
+                                        <h5 class="card-title">Golden Gate Park</h5>
+                                        <div class="card-subtitle-ds">San Francisco</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">When Frederick Law Olmsted, architect of New York's Central Park, gazed in 1865 upon the plot of land San Francisco Mayor Frank McCoppin wanted to turn into a vast city park, he was understandably skeptical. </div>
                                     </div>
                                 </div>
                             </div>
@@ -116,39 +266,41 @@
                         <div class="carousel-item">
                             <div class="card-wrapper container-sm d-flex  justify-content-around">
                                 <div class="card  disappear-ds">
-                                    <img src="img-js/usa-img-js/central.jpg" class="card-img-top" alt="distillery district">
+                                    <img src="usa-img-ke/Central Park.avif" class="card-img-top" alt="distillery district">
                                     <div class="card-body">
                                         <h5 class="card-title">Central Park</h5>
-                                        <div class="card-subtitle-ds">UPPER WEST SIDE & CENTRAL PARK</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">One of the world’s most renowned green spaces, Central Park comprises 843 acres of rolling meadows, boulder-studded outcroppings, elm-lined walkways,…</div>
+                                        <div class="card-subtitle-ds">New York City</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">One of the world’s most renowned green spaces, Central Park comprises 843 acres of rolling meadows, boulder-studded outcroppings, elm-lined walkways, manicured European-style gardens, a lake and a reservoir — not to mention an outdoor theater, a memorial to John Lennon, an idyllic waterside eatery and a famous Alice in Wonderland statue.</div>
                                     </div>
                                 </div>
                                 <div class="card disappear-ds">
-                                    <img src="img-js/usa-img-js/ellis-island.jpg" class="card-img-top" alt="royal ontario museum">
+                                    <img src="usa-img-ke/Ellis Island.avif" class="card-img-top" alt="royal ontario museum">
                                     <div class="card-body">
                                         <h5 class="card-title">Ellis Island</h5>
-                                        <div class="card-subtitle-ds">FINANCIAL DISTRICT & LOWER MANHATTAN</div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">Located in New York Harbor, Ellis Island is the US's most famous and historically important gateway and is home to one of the country’s most moving…</div>                                    
+                                        <div class="card-subtitle-ds">New York City</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">Located in New York Harbor, Ellis Island is the US's most famous and historically important gateway and is home to one of the country’s most moving museums. </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img src="img-js/usa-img-js/getty-06.jpg" class="card-img-top" alt="niagara falls">
+                                    <img src="usa-img-ke/Empire State Building.avif" class="card-img-top" alt="niagara falls">
                                     <div class="card-body">
-                                        <h5 class="card-title">Petco Park</h5>
-                                        <div class="card-subtitle-ds">SAN DIEGO/div>
-                                        <div class="relative line-clamp-3 card-prompt-ds">A quick stroll southeast of the Gaslamp is the home of the San Diego Padres baseball team. The stadium has beautiful brick construction and skyscraper…</div>
+                                        <h5 class="card-title">Empire State Building</h5>
+                                        <div class="card-subtitle-ds">New York City</div>
+                                        <div class="relative line-clamp-3 card-prompt-ds">The Chrysler Building may be prettier, and One World Trade Center taller, but the queen bee of the New York skyline remains the Empire State Building. </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
@@ -158,22 +310,6 @@
             </div>
             <div class="more-attraction-button-container-ds">
 
-            </div>
-        </div>
-
-        <div class="container-fluid top-picks-container-ds">
-            <div class="big-title-ds">
-                Top picks from our travel experts
-            </div>
-            <div class="exciting-text-ds">
-                12 exciting experiences in every corner of Canada
-            </div>
-            <div class="curate-text-ds">
-                Curated by <span>Brendan Sainsbury</span>
-            </div>
-            <div class="container top-picks-card-container-ds">
-                
-                
             </div>
         </div>
 
@@ -205,16 +341,16 @@
                     </div>
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title"><i class="fa-solid fa-train"></i> Transportation</h5>
-                        <p class="card-text text-muted">Plan your travels across the USA with this guide to everything from car hire and bus services to cycle routes and domestic flights.</p>
-                        <a href="#" class="card-link">Read article &#8594;</a>
+                            <h5 class="card-title"><i class="fa-solid fa-train"></i> Transportation</h5>
+                            <p class="card-text text-muted">Plan your travels across the USA with this guide to everything from car hire and bus services to cycle routes and domestic flights.</p>
+                            <a href="#" class="card-link">Read article &#8594;</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title"><i class="fa-solid fa-passport"></i> Visa Requirement</h5>
-                        <p class="card-text text-muted">US visa requirements can be complicated and changeable. We've got all the key info you need about whether you need one and how to get it.</p>
-                        <a href="#" class="card-link">Read article &#8594;</a>
+                            <h5 class="card-title"><i class="fa-solid fa-passport"></i> Visa Requirement</h5>
+                            <p class="card-text text-muted">US visa requirements can be complicated and changeable. We've got all the key info you need about whether you need one and how to get it.</p>
+                            <a href="#" class="card-link">Read article &#8594;</a>
                         </div>
                     </div>
                 </div>
@@ -224,13 +360,319 @@
 
         </div>
 
-    
+        <div class="container plan-container-ds-usa">
+            <div class="gradient-text-ds plan-text1-ds">03 / PLAN WITH A LOCAL</div>
+            <div class="big-title-ds plan-text2-ds">Latest stories from The USA</div>
+            
+            <button type="button" class="plan-button-ds">Get started &#8594;</button>
+        </div>
+
+
+        <div class="container latest-storeis-container-ds ">
+            <div class="latest-title-button-ds">
+                <div class="latest-title-ds">
+                    <div class="gradient-text-ds">04 / ARTICLES</div>
+                    <div class="big-title-ds col">Latest stories from THE USA</div>
+                </div>
+                <div class="latest-button-ds">
+                    <button type="button" class="attractions-button-ds mb-3">Read more articles</button>
+                </div>
+            </div>
+            <div class="row latest-storeis-box-ds centered">
+                <div class="latest-stroies-left-ds-usa col-8">
+                    <div class="latest-stories-text-ds">
+                        <div class="latest-text1-ds">Beaches</div>
+                        <div class="latest-text2-ds">The best lakes for a vacation in the USA</div>
+                        <div class="latest-text3-ds">Jun 7, 2024 • 11 min read
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-stories-text2-ds">
+                    <div class="latest-text1-ds">Beaches</div>
+                    <div class="latest-text2-ds">The best lakes for a vacation in the USA</div>
+                    <div class="latest-text3-ds">Jun 7, 2024 • 11 min read
+                    </div>
+                </div>
+         
+                <div class="latest-stroies-right-ds col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <img src="usa-img-ke/Badlands National Park.avif" alt="running photo" class="img-fluid">
+                            </div>
+                            <div>
+                                <p class="text-muted">ACTIVITIES</p>
+                                <h5 class="card-title">Badlands National Park: a first timer’s guide</h5>
+                                <p class="card-text">Jun 7, 2024 • 7 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <img src="usa-img-ke/Pride 2024.avif" alt="kayak photo" class="img-fluid">
+                            </div>
+                            <div>
+                                <p class="text-muted">Art</p>
+                                <h5 class="card-title">Pride 2024: 6 historic LGBTIQ+ destinations to visit in the US</h5>
+                                <p class="card-text">May 20, 2024 • 4 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <img src="usa-img-ke/6 chill US music festivals that are worth traveling for this summer.avif" alt="hiking photo" class="img-fluid">
+                            </div>
+                            <div>
+                                <p class="text-muted">Music</p>
+                                <h5 class="card-title">12 of the best beaches in Australia</h5>
+                                <p class="card-text">May 17, 2024 • 4 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <img src="usa-img-ke/10 of the USA’s most beautiful and inspiring libraries.avif" alt="woman photo" class="img-fluid">
+                            </div>
+                            <div>
+                                <p class="text-muted">Architecture</p>
+                                <h5 class="card-title">10 of the USA’s most beautiful and inspiring libraries
+                                </h5>
+                                <p class="card-text">May 17, 2024 • 7 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container popular-activities-container-ds">
+            <div class="gradient-text-ds">
+                IN PARTNERSHIP WITH GETYOURGUIDE
+            </div>
+            <div class="big-title-ds">
+                Book popular activities in Australia
+            </div>
+            <div class="row popular-activities-items-ds">
+                <div class="popular-item-ds col-4">
+                    <img src="usa-img-ke/NYC.jpg" alt="icefield skywalk" class="img-fluid">
+                    <a href="#">
+                        <h5>NYC: Top of the Rock Observation Deck Ticket</h5>
+                    </a>
+                    <p>&#11088; 4.5(925)</p>
+                </div>
+                <div class="popular-item-ds col-4">
+                    <img src="usa-img-ke/Go City Explorer Pass.jpg" alt="cruise" class="img-fluid">
+                    <a href="#">
+                        <h5>Book popular activities in The USA</h5>
+                    </a>
+                    <p>&#11088; 4.5(788)</p>
+                </div>
+                <div class="popular-item-ds col-4">
+                    <img src="usa-img-ke/Edge Observation.jpg" alt="icefield skywalk" class="img-fluid">
+                    <a href="#">
+                        <h5>NYC: Edge Observation Deck Admission Ticket</h5>
+                    </a>
+                    <p>&#11088; 4.5(50)</p>
+                </div>
+            </div>
+            <div class="getyourguide-text-ds">Powered by GetYourGuide.<a href="#">Join our travel affiliate program</a>
+            </div>
+        </div>
+
+
+        <div class="container beyond-container-ds">
+            <div class="beyond-title-button-ds">
+                <div class="beyond-title-ds">
+                    <div class="gradient-text-ds">05 / GO BEYOND</div>
+                    <div class="big-title-ds">Australia and beyond</div>
+                </div>
+                <div class="beyond-button-ds">
+                    <button type="button" class="attractions-button-ds">The USA and Beyond</button>
+                </div>
+            </div>
+            <div class="row beyond-items-ds">
+                <div class="beyond-item-ds col-lg-3 col-md-6">
+                    <img src="usa-img-ke/Eastern USA.avif" alt="british columbia" class="img-fluid">
+                    <h5>Eastern USA</h5>
+                </div>
+                <div class="beyond-item-ds col-lg-3 col-md-6">
+                    <img src="usa-img-ke/Western USA.avif" alt="novascotia" class="img-fluid">
+                    <h5>Western USA</h5>
+                </div>
+                <div class="beyond-item-ds col-lg-3 col-md-6">
+                    <img src="usa-img-ke/California.avif" alt="vancouver" class="img-fluid">
+                    <h5>California</h5>
+                </div>
+                <div class="beyond-item-ds col-lg-3 col-md-6">
+                    <img src="usa-img-ke/Northern California.avif" alt="toronto" class="img-fluid">
+                    <h5>Northern California</h5>
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
     <footer>
+        <div class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+            </ul>
 
+            <div class="container footer-yeara-container">
+                <div class="footer-left-yr">
+                    <div class="noona-footer-left">
+                        <div>
+                            <img src="img-dasom/whitelogo.png" class="noona-logo-yeara" alt="noona logo">
+                        </div>
+                        <div class="explore">
+                            For Explores Everywhere
+                        </div>
+                        <div class="join ">
+                            <div>
+                                Join the Noona Planet
+                            </div>
+                            <div>
+                                community of travelers
+                            </div>
+                        </div>
+                        <div class="create-bt">
+                            <button type="button" class="btn btn-warning mb-5 "
+                                style="color: white; font-weight: 500; border-radius: 25px">Create account</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right-yr">
+                    <div class="travel-yeara">
+                        <ul>
+                            <li class="menu__item tilte-yeara">TOP DESTINATIONS</li>
+                            <li class="menu__item"><a class="menu__link" href="#">USA<a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Australia</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Canada</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">South Korea</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">France</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Czech Republic</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Italy</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="travel-yeara">
+                        <ul>
+                            <li class="menu__item tilte-yeara">TRAVEL INTERESTS</li>
+                            <li class="menu__item"><a class="menu__link" href="#">Adventure Travel<a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Art and Culture</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Beaches, coasts and Islands</a>
+                            </li>
+                            <li class="menu__item"><a class="menu__link" href="#">Family Holidays</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Festivals</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Food and Drink</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Honeymoon and Romance</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Road Trips</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Sustainable Travel</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Travel on a Budget</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Wildlife and Nature</a></li>
+
+
+                        </ul>
+                    </div>
+
+
+                    <div class="travel-yeara">
+                        <ul class="shop-about">
+                            <li class="menu__item tilte-yeara">SHOP</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Destination Guides<a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">noona planet Kids</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">noona planet Shop</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Non-English Guides</a></li>
+
+
+                        </ul>
+
+                        <ul class="shop-about">
+                            <li class="menu__item tilte-yeara">ABOUT US</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">About Lonley Planet<a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Trade and Advertising</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Privacy Policy</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Terms and Conditions</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Work For Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#">TOP DESTINATIONS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">TRAVEL INTERESTS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">SHOP</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2024 Noona Planet, a Red Ventures company. All rights reserved. No part of this site may be
+                    reproduced without our written permission.
+                </div>
+                <div class="language-container">
+                    <div class="LANGUAGE">
+                        LANGUAGE
+                    </div>
+    
+                    <div class="language-button-container">
+                        <button type="button"
+                            class="btn btn-secondary dropdown-toggle text-white bg-dark border border-3 rounded-pill"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="border-radius: 50px 50px;">
+                            English &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#">Korean</a>
+                            <a class="dropdown-item" href="#">Español</a>
+                            <a class="dropdown-item" href="#">Italiano</a>
+                            <a class="dropdown-item" href="#">Française</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Český Krumlov </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      </script>
 </body>
+
 </html>
