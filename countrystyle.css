@@ -3,10 +3,7 @@ body {
     width: 100vw;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> c1c4e30ac57f3bc19f39f9d580cc2a5a0e22681b
 main {
     margin: 0px 24px 24px;
 }
@@ -343,6 +340,18 @@ main {
     margin-bottom: 5rem;
 }
 
+.plan-container-ds-usa {
+    height: 550px;
+    max-width: 1472px;
+    background-image: url('usa-img-ke/Statue\ of\ Liberty.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
 
 
 .plan-text1-ds {
@@ -435,6 +444,14 @@ main {
     max-width: 980px;
 }
 
+.latest-stroies-left-ds-usa {
+    background-image: url('usa-img-ke/The\ best\ lakes.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    min-height: 300px;
+    max-width: 980px;
+}
 
 
 
