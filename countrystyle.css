@@ -328,6 +328,19 @@ main {
     margin-bottom: 5rem;
 }
 
+.plan-container-ds-au {
+    height: 550px;
+    max-width: 1472px;
+    background-image: url('au-img-ke/Sydney\ Opera\ House.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+
 
 .plan-text1-ds {
     position: relative;
@@ -403,6 +416,15 @@ main {
 
 .latest-stroies-left-ds {
     background-image: url('img-dasom/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    min-height: 300px;
+    max-width: 980px;
+}
+
+.latest-stroies-left-ds-au {
+    background-image: url('au-img-ke/hiker’s.avif');
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
