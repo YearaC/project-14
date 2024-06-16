@@ -1,17 +1,50 @@
-.main-marginYR{
-    margin: 0px;
+.backgroud-YR{
+    background-color:rgb(18 18 18);
+    margin-top: 8rem;
+}
+
+.book-background{
+    background-image: url(yeara-img/books.png);
+    width: 120vw;
+    height: 87vh;
+    margin: 0;
+    background-size: 90vw 100vh;
+    
+    
     
   
-
-
 }
 
-.background-YR{
-    background-image: url('yeara-img/books.png');
-    width: 100%;
-    height: 800px;
-    margin: 0px;
+.book-title{
+    max-width: 384px;
+    max-height: 493px;
+    color: white;
+    font-weight: 400;
+}
+
+.travel-book{
+    font-family: "Dosis", sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.book-button{
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    font-weight: 500;
+}
+
+.book-button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.shop-YR{
+    color: rgb(194 194 194);
+    line-height: 1;
+    font-weight: 500;
     
 }
-
-
