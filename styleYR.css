@@ -204,6 +204,36 @@ footer {
     font-size: 16px;
 }
 
+.invisible-YR{
+    display: none;
+    margin-bottom: 3rem;
+    
+}
+
+.collapsible {
+    background-color: #3586ff;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(51, 165, 231);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(51, 165, 231);
+    
+  }
 
 @media (max-width: 700px) {
     .footer-right-yr {
@@ -242,6 +272,12 @@ footer {
        font-size: 13px;
        width: 100%;
        margin-right: -0.5rem;
+    }
+
+    .invisible-YR{
+        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
 

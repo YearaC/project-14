@@ -18,7 +18,7 @@
   <link href="styleYR.css" rel="stylesheet" type="text/css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
-    </style>
+  </style>
 </head>
 
 <body>
@@ -504,6 +504,8 @@
               </div>
             </div>
 
+            <!-- 중복
+
             <div>
               <ul class="menu">
                 <li class="menu__item"><a class="menu__link" href="#">TOP DESTINATIONS</a></li>
@@ -514,6 +516,49 @@
 
               </ul>
             </div>
+
+             -->
+
+            <div class="invisible-YR">
+
+              <button type="button" class="collapsible">TOP DESTINATIONS
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow"> &#x2BC6;</span></button>
+              <div class="content">
+                <p>Australia</p>
+                <p>USA</p>
+                <p>CANADA</p>
+              </div>
+              <button type="button" class="collapsible">TRAVEL INTERESTS
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow"> &#x2BC6;</span>
+              </button>
+              <div class="content">
+                <p>Adventure Travel</p>
+                <p>Art and Culture</p>
+                <p>Beaches, Coasts and Islands</p>
+                <p>Family Holidays</p>
+              </div>
+              <button type="button" class="collapsible">SHOP
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow"> &#x2BC6;</span>
+              </button>
+              <div class="content">
+                <p>Destination Guides</p>
+                <p>Noona Planet Kids</p>
+                <p>Noona Planet Shop</p>
+                <p>Non-English Guides</p>
+              </div>
+              <button type="button" class="collapsible">ABOUT US
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow"> &#x2BC6;</span>
+              </button>
+              <div class="content">
+                <p>About Noona Planet</p>
+                <p>Contact Us</p>
+                <p>Trade and Advertising</p>
+                <p>Privacy Policy</p>
+              </div>
+
+            </div>
+
+
 
             <div class="footer-bottom">
               <div class="copyright">
@@ -548,6 +593,24 @@
 
 
       </div>
+
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
 
 
 
