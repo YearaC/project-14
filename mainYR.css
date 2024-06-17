@@ -9,11 +9,9 @@
     height: 87vh;
     margin: 0;
     background-size: 90vw 100vh;
-    
-    
-    
-  
+    background-position: -10% 0%;
 }
+
 
 .book-title{
     max-width: 384px;
@@ -48,3 +46,66 @@
     font-weight: 500;
     
 }
+
+.blue{
+    background-color:rgb(0 87 217);
+    
+}
+
+.sns-main{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 4.5rem 3rem;
+}
+
+.hashtag{
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.sns-follow{
+    font-size: 1.2rem;
+    align-self: center;
+    font-weight: 600;
+}
+
+.photo-sns{
+  max-width: 20rem;
+  max-height: 25rem;
+
+}
+
+.last-main{
+    position: relative;
+  text-align: center;
+  color: white;
+  display: flex;
+  padding-bottom: 3rem;
+
+}
+/*
+.container{
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+*/
+
+.text-YR{
+    position: relative;
+  bottom: 25px;
+  left: 16px;
+  font-weight: 500;
+  
+
+}
+
+/*
+transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+
+    */
