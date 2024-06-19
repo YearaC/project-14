@@ -1,3 +1,8 @@
+
+
+
+
+
 /* video */
 
 
@@ -74,4 +79,125 @@
     display: block;
     width: 100%;
   }
+
+
+
   
+/* Last main paragraph css */
+.last-container-js {
+
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 200px;
+  height: 100vh;
+}
+
+.noona-logo-js {
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.logo-box-js {
+  display: block;
+  justify-content: center;
+}
+
+.last-section-js {
+  width: 100vw;
+}
+
+.last-img-box-js {
+  
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+ 
+}
+
+.last-img-box-js div.sec01-js {
+ 
+  height: 17.3rem;
+  background-image: url("./img-js/usa-img-js/Lonely-Planet-Travel-images/GettyImages-1353478016.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(70%);
+  
+}
+
+.last-img-box-js div.sec02-js {
+  height: 17.3rem;
+  background-image: url("./img-js/usa-img-js/Lonely-Planet-Travel-images/GettyImages-859032540.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+.last-img-box-js div.sec03-js {
+  height: 17.3rem;
+  background-image: url("./img-js/usa-img-js/Lonely-Planet-Travel-images/GettyImages-497782950-16.9.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+.last-img-box-js div.sec04-js {
+  height: 17.3rem;
+  background-image: url("./img-js/usa-img-js/Lonely-Planet-Travel-images/GettyImages-1291764362.jpeg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+.last-img-box-js div.sec05-js {
+  height: 17.3rem;
+  background-image: url("./img-js/usa-img-js/Lonely-Planet-Travel-images/GettyImages-1146333369.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+.last-img-box-js div.sec06-js {
+  height: 17.3rem;
+  background-image: url("./img-js/usa-img-js/Lonely-Planet-Travel-images/GettyImages-1222106361.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
+/* hovering */
+
+.last-img-box-js div.sec01-js:hover {
+  filter: brightness(100%);
+}
+
+.last-img-box-js div.sec02-js:hover {
+  filter: brightness(100%);
+}
+
+.last-img-box-js div.sec03-js:hover {
+  filter: brightness(100%);
+}
+
+.last-img-box-js div.sec04-js:hover {
+  filter: brightness(100%);
+}
+.last-img-box-js div.sec05-js:hover {
+  filter: brightness(100%);
+}
+.last-img-box-js div.sec06-js:hover {
+  filter: brightness(100%);
+}
+

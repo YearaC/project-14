@@ -340,13 +340,36 @@ main {
     margin-bottom: 5rem;
 }
 
-
+.plan-container-ds-us {
+    height: 550px;
+    max-width: 1472px;
+    background-image: url('img-js/usa-img-js/Statue_of_Liberty.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
 
 .plan-text1-ds {
     position: relative;
     top:  50px;
     left: 20px;
 }
+
+.plan-text1-ds-us {
+    background: linear-gradient(to right, #f2f3f5 0%, #7d3b3b 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 1px;
+    position: relative;
+    top:  50px;
+    left: 20px;
+}
+
 
 
 .plan-text2-ds {
@@ -359,8 +382,17 @@ main {
     margin-right: 1rem;
 }
 
+.plan-text2-ds {
+    color: white;
+    position: relative;
+    top:  150px;
+    left: 20px;
+    max-width: 600px;
+    text-wrap: wrap;
+    margin-right: 1rem;
+}
 
-.plan-container-ds p {
+.plan-container-ds-us p {
     color: white;
     position: relative;
     top:  100px;
@@ -439,6 +471,7 @@ main {
     color: white;
     position: relative;
     top: 30rem;
+   
     font-weight: 400;
 }
 

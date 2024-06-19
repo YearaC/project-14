@@ -1,52 +1,34 @@
+/* navbar */
 
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* navbar */
-
-  .nav-info-ke {
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    tab-size: 4;
-    font-family: Pangea Text, Helvetica, Arial, sans-serif;
-    font-feature-settings: normal;
-    font-variation-settings: normal;
+.nav-info-ke {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  tab-size: 4;
+  font-family: Pangea Text, Helvetica, Arial, sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
 }
 
 .sub-box-backgroud-color-ke {
-    background-color: white;
+  background-color: white;
 }
 
 .backgroud-color-ke {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .logo-ke {
-    width: 160px;
-    padding: 15px 15px 10px 0px;
+  width: 160px;
+  padding: 15px 15px 10px 0px;
 }
 
 .nav-con-box-ke {
-    padding-right: 10px
+  padding-right: 10px
 }
-  /*  Nav end */
+
+/*  Nav end */
 
 
 
@@ -328,4 +310,83 @@ html {
 }
 
 
-  /* main-js end line */
+/* 5th paragraph*/
+.background-box-js {
+  background-color: black;
+  height: 100vh;
+}
+
+
+.container-5th-js {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.container-5th-img-js {
+  background-color: black;
+  width: 100vw;
+}
+
+.text-5thbox-js {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+  color: white;
+  overflow: hidden;
+}
+
+@media (max-width: 772px) {
+  .text-5thbox-js {
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    overflow: hidden;   
+  }
+}
+.button-5th-js{
+  text-align: center;
+}
+
+
+
+.text-5thbox-js a{
+  border: 1.5px solid #c2c2c2;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-color: #c2c2c2;
+  padding: .5rem 1.25rem;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 500;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s;
+  text-decoration: none;
+  color: white;
+  
+
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.last-container-js {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+  
+
