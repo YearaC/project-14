@@ -230,7 +230,7 @@ footer {
     border-top: solid 2px #fff;
   }
   
-  .active, .collapsible:hover {
+  .collapsible:hover {
     background-color: rgb(51, 165, 231);
   }
   
